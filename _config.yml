@@ -103,5 +103,3 @@ theme: hexo-theme-memory
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: git@github.com:jianzou1/jianzou.github.io.git
-  branch: master
