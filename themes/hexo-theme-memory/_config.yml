@@ -11,6 +11,9 @@ menu:
   slug: archives
   url: /archives
 
+# visitors count
+counter: true
+
 # Search
 search: 
   enable: false
@@ -43,7 +46,7 @@ social:
 - slug: email
   url:
 - slug: github
-  url: 
+  url: https://github.com/jianzou1/jianzou1.github.io
 - slug: twitter
   url:
 - slug: rss

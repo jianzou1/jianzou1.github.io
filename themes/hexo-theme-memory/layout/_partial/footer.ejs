@@ -22,10 +22,16 @@
             <% } }); %>
         <% } %>
     </div>
+    
+    <div class="theme-by">Theme <span class="codename">Memory</span>
+    <%# "将两个类合并为一个，移除换行 %>
+    &copy; <a href="<%= url_for('/') %>"><%= config.title %></a></div>
 
-    <div class="theme-by">Theme <span class="codename">Memory</span> 
-    </div>
-    <div>&copy; <a href="<%= url_for('/') %>"><%= config.title %></a></div>
+    <%# "以下为访问量计数 via. https://blog.csdn.net/mudooo/article/details/94559630" %>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv"></span>人</span>
 
 </footer>
 
