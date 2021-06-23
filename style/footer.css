@@ -25,7 +25,11 @@
   #footer .social-wrapper {
     padding-top: 20px; }
   #footer .theme-by {
-    font-size: 12px; }
+    font-size: 12px;
+    color: #828282; }
+  #footer .countAndRunTime {
+    font-size: 12px;
+    color: #828282; }
   #footer a {
     color: #828282; }
     @media (prefers-color-scheme: dark) {
