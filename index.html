@@ -12,10 +12,12 @@
     <meta name="baidu-site-verification" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" href="/img/favicon.ico">
-    <meta property="og:type" content="website">
+    <meta name="description" content="时间的流速是否会因为我的心情改变">
+<meta property="og:type" content="website">
 <meta property="og:title" content="jianzou">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="jianzou">
+<meta property="og:description" content="时间的流速是否会因为我的心情改变">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="jianzou">
 <meta name="twitter:card" content="summary">
@@ -107,6 +109,11 @@
     <div class="social-wrapper">
         
             
+                <a href="https://github.com/jianzou1/jianzou1.github.io" class="social github"
+                   target="_blank" rel="external">
+                    <span class="icon icon-github"></span>
+                </a>
+            
                 <a href="https://weibo.com/u/2686174203" class="social sina-weibo"
                    target="_blank" rel="external">
                     <span class="icon icon-sina-weibo"></span>
@@ -114,10 +121,42 @@
             
         
     </div>
+    
+    <div class="theme-by">Theme <span class="codename">Memory</span>
+    
+    &copy; <a href="/">jianzou</a></div>
 
-    <div class="theme-by">Theme <span class="codename">Memory</span> 
-    </div>
-    <div>&copy; <a href="/">jianzou</a></div>
+    
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span id="busuanzi_container_site_pv">PV:<span id="busuanzi_value_site_pv"></span></span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv">UV:<span id="busuanzi_value_site_uv"></span></span>
+
+
+    </span><br></span>
+    <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span> <script language="javascript"> 
+    var now = new Date();
+    function createtime(){
+        var grt= new Date("06/22/2021 22:02:52");/*---这里是网站的启用时间--*/
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24;
+        dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum);
+        hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;}
+        minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes);
+        if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds);
+        if(String(snum).length ==1 ){snum = "0" + snum;}
+        document.getElementById("timeDate").innerHTML = "The site has been running for "+dnum+"d ";
+        document.getElementById("times").innerHTML = hnum + "h " + mnum + "m " + snum + "s ";
+        }
+    setInterval("createtime()",250); 
+    </script> 
+
+    
 
 </footer>
 
@@ -163,7 +202,7 @@
             </div>
             <div class="info">
                 <span class="item desc">
-                    
+                    时间的流速是否会因为我的心情改变
                 </span>
             </div>
         </div>
