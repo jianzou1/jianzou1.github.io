@@ -54,7 +54,7 @@
       transition: all 0.24s; }
       @media (max-width: 820px) {
         #header #logo img {
-          width: 50px; } }
+          width: 90px; } }
     #header #logo #site-desc {
       display: block;
       text-align: center;
