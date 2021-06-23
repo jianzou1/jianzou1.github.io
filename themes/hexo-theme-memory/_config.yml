@@ -1,0 +1,68 @@
+# Meta
+keywords: hexo,theme,jianzou
+site_desc: D R S A
+
+# Navigation
+menu:
+- name: About
+  slug: about
+  url: /about
+- name: Archives
+  slug: archives
+  url: /archives
+
+# Search
+search: 
+  enable: false
+  service: #google/hexo/algolia/azure
+  # google 
+  google_api_key:
+  google_engine_id:
+  # algolia
+  algolia_app_id:
+  algolia_api_key:
+  algolia_index_name:
+  # azure
+  azure_service_name:
+  azure_index_name:
+  azure_query_key:
+
+# Miscellaneous
+google_analytics:
+author_url:
+
+# Scss
+node_sass:
+  debug: false
+  outputStyle: nested
+  precision: 5
+  sourceComments: false
+
+# use url, not username
+social:
+- slug: email
+  url:
+- slug: github
+  url: 
+- slug: twitter
+  url:
+- slug: rss
+  url: 
+- slug: google
+  url:
+- slug: facebook
+  url:
+- slug: linkedin
+  url:
+- slug: sina-weibo
+  url: https://weibo.com/u/2686174203
+- slug: tumblr
+  url:
+- slug: dribbble
+  url:
+- slug: pinterest
+  url:
+- slug: instagram
+  url:
+- slug: behance
+  url:
