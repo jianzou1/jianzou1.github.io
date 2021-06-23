@@ -23,6 +23,7 @@
     <meta name="google-site-verification" content="<%= config.google_site_verification %>"/>
     <meta name="baidu-site-verification" content="<%= config.baidu_site_verification %>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/img/favicon.ico">
     <%- open_graph({
         twitter_id: theme.twitter,
         google_plus: theme.google_plus,
@@ -31,11 +32,6 @@
     }) %>
     <% if (theme.rss) { %>
         <link rel="alternative" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
-    <% } %>
-
-    <!-- Favicon -->
-    <% if (theme.favicon) { %>
-        <link rel="icon" href="<%- theme.favicon %>" />
     <% } %>
 
     <!-- Font -->
