@@ -10,7 +10,12 @@ menu:
 - name: Archives
   slug: archives
   url: /archives
-
+- name: Photography
+  slug: photography
+  url: /tags/Photography/
+- name: Game Design
+  slug: game design
+  url: /tags/Game-Design/
 # visitors count
 counter: true
 

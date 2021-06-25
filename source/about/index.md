@@ -9,3 +9,5 @@ date: 2021-06-23 10:22:05
  ~~一个讨厌世界的游戏策划~~
 
 [点击回到我的主页](https://jianzou.art/)
+
+[点击查看关于博客的详情](https://jianzou.art/2021/06/25/aboutMySite/)
