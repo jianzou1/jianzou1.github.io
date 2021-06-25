@@ -1,10 +1,11 @@
+@charset "UTF-8";
 .dark-btn {
   display: inline-block;
   background: rgba(0, 0, 0, 0.3);
   border: 1px solid #000000;
   padding: 0 15px;
   font-size: 13px;
-  font-family: "Roboto", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
+  font-family: "Roboto", 等线, Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
   text-align: center;
   color: #c2c2c2; }
   @media (prefers-color-scheme: dark) {

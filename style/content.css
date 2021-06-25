@@ -1,8 +1,9 @@
+@charset "UTF-8";
 .content {
-  color: #464646;
+  color: #050505;
   font-size: 14px;
-  line-height: 1.75em;
-  padding: 0 30px; }
+  line-height: 1.5em;
+  padding: 0 40px; }
   @media (prefers-color-scheme: dark) {
     .content {
       color: #90acc9; } }
@@ -74,7 +75,7 @@
           background: rgba(0, 150, 136, 0.6); } }
   .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
     position: relative;
-    font-family: "Roboto", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
+    font-family: "Roboto", 等线, Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
     font-weight: bold;
     margin: 40px auto 30px auto;
     left: 20px; }
