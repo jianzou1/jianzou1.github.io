@@ -149,5 +149,16 @@
     .readmore {
       margin-top: 20px;
     }
+    .post-copyright{
+      position: relative;
+      display: block;
+      padding: 5px;
+      background: #F6F6F6;
+      border-left: 4px solid #DDDDDD;
+      line-height: 2.5rem;
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+      transition: all 0.24s ease;
+      margin-top: 15px;
+      }
   }
 }
