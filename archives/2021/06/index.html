@@ -82,36 +82,6 @@
 
     
         <h2 class="title">
-            <a href="/2021/06/25/hello-world/">
-                Bye Bye World
-            </a>
-        </h2>
-    
-    <time>
-        6月 25, 2021
-    </time>
-    <section class="content">
-        <p><img src="https://wx1.sinaimg.cn/mw2000/a01bc3fbgy1gnvbldq7c6j21bb1r3tu5.jpg" alt="pic"></p>
-<p><strong>测试中文在页面的显示效果</strong></p>
-<p><em>Test the display of English on the page</em></p>
-<p>测试代码在页面的显示效果</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">dice:[</span><br><span class="line">	&#123; type: 1, openLevel: 10, cd:300 &#125;,</span><br><span class="line">	&#123; type: 2, openLevel: 30, cd:300 &#125;</span><br></pre></td></tr></table></figure>
-
-
-        
-
-        
-            <div class="tags">
-                <a class="tag-none-link" href="/tags/photography/" rel="tag">photography</a>
-            </div>
-        
-    </section>
-</article>
-  
-    <article class="post ">
-
-    
-        <h2 class="title">
             <a href="/2021/06/25/aboutMySite/">
                 About Site
             </a>
@@ -142,16 +112,11 @@
 <p>而且因为工作的原因，我平时使用Tortoise比较多，于是我选择使用Tortoise针对Git做的Shell来控制博客更新的工作流：</p>
 <p><em>master主干：保存网站的page静态文件；外部用户直接访问主干上存储的html文件。</em></p>
 <p><em>hexo分支：保存网站的开发源文件。</em></p>
-<p>1：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">在hexo中编辑博客源文件</span><br><span class="line">（编辑前先使用GitShell与远端进行同步，否则冲突）</span><br></pre></td></tr></table></figure>
-<p>2：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">在hexo分支执行命令，生成Public文件</span><br><span class="line">cd hexo</span><br><span class="line">$hexo g</span><br></pre></td></tr></table></figure>
-<p>3：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">将hexo分支文件夹通过 generate命令生成的 Public文件夹中的内容，拷贝到 master主干文件夹</span><br><span class="line">（拷贝前先使用GitShell与远端进行同步，否则冲突）</span><br></pre></td></tr></table></figure>
-<p>4:</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">在GitShell中执行以下操作</span><br><span class="line">commit and push master  发布静态资源</span><br><span class="line">commit and push hexo    同步网站源文件</span><br></pre></td></tr></table></figure>
-<p>至此，博客的所有发布与同步流程结束。</p>
-<p>如果有时间我可能会用ts写一个自动发布脚本，有时候只是为了写一篇文章、改几个字，反复执行这个操作，挺弱智的。</p>
+<h4><span id="第一步">第一步：</span></h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">在hexo中编辑博客源文件</span><br><span class="line">（编辑前先使用GitShell与远端进行同步，否则冲突）</span><br></pre></td></tr></table></figure>
+<h4><span id="第二步">第二步：</span></h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">在hexo分支执行命令，生成Public文件</span><br><span class="line">cd hexo</span><br><span class="line">$hexo g</span><br></pre></td></tr></table></figure>
+<h4><span id="第三步">第三步：</span></h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">将hexo分支文件夹通过 generate命令生成的 Public文件夹中的内容，拷贝到 master主干文件夹</span><br><span class="line">（拷贝前先使用GitShell与远端进行同步，否则冲突）</span><br></pre></td></tr></table></figure>
+<h4><span id="第四步">第四步:</span></h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">在GitShell中执行以下操作</span><br><span class="line">commit and push master  发布静态资源</span><br><span class="line">commit and push hexo    同步网站源文件</span><br></pre></td></tr></table></figure>
+<h4><span id="至此博客的所有-发布-与-同步-流程结束">至此，博客的所有 发布 与 同步 流程结束。</span></h4><p>如果有时间我可能会用ts写一个自动发布脚本，有时候只是为了写一篇文章、改几个字，反复执行这个操作，太繁琐了。</p>
 
 
         
@@ -174,6 +139,36 @@
     </time>
     <section class="content">
         <p><img src="https://wx1.sinaimg.cn/mw2000/a01bc3fbgy1gnvbleztsbj21o32841kx.jpg" alt="pic"></p>
+
+
+        
+
+        
+            <div class="tags">
+                <a class="tag-none-link" href="/tags/photography/" rel="tag">photography</a>
+            </div>
+        
+    </section>
+</article>
+  
+    <article class="post ">
+
+    
+        <h2 class="title">
+            <a href="/2021/06/23/hello-world/">
+                Bye Bye World
+            </a>
+        </h2>
+    
+    <time>
+        6月 23, 2021
+    </time>
+    <section class="content">
+        <p><img src="https://wx1.sinaimg.cn/mw2000/a01bc3fbgy1gnvbldq7c6j21bb1r3tu5.jpg" alt="pic"></p>
+<p><strong>测试中文在页面的显示效果</strong></p>
+<p><em>Test the display of English on the page</em></p>
+<p>测试代码在页面的显示效果</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">dice:[</span><br><span class="line">	&#123; type: 1, openLevel: 10, cd:300 &#125;,</span><br><span class="line">	&#123; type: 2, openLevel: 30, cd:300 &#125;</span><br></pre></td></tr></table></figure>
 
 
         

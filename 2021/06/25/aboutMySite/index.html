@@ -20,7 +20,7 @@
 <meta property="og:description" content="写在前面 我从初中一年级就开始自建网站了，小的时候没什么程序知识，也没觉得建站这件事情多有意思。 只是单纯的认为有一个自己的个人网站，是一件很厉害的事情，不过还好没有走得很深。因为网站前端还真是没什么前途，游戏和产品的前端好歹能自称客户端呢。 我的第一个网站使用的是wordpress，这个东西对于新手来说简直是个天坑，之后再来说。 最开始什么都用的是免费的，用的是.tk的顶级域名。这个域名貌似是">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-06-25T01:09:43.000Z">
-<meta property="article:modified_time" content="2021-06-25T12:27:20.953Z">
+<meta property="article:modified_time" content="2021-06-25T14:22:00.998Z">
 <meta property="article:author" content="jianzou">
 <meta name="twitter:card" content="summary">
     
@@ -101,16 +101,11 @@
 <p>而且因为工作的原因，我平时使用Tortoise比较多，于是我选择使用Tortoise针对Git做的Shell来控制博客更新的工作流：</p>
 <p><em>master主干：保存网站的page静态文件；外部用户直接访问主干上存储的html文件。</em></p>
 <p><em>hexo分支：保存网站的开发源文件。</em></p>
-<p>1：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">在hexo中编辑博客源文件</span><br><span class="line">（编辑前先使用GitShell与远端进行同步，否则冲突）</span><br></pre></td></tr></table></figure>
-<p>2：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">在hexo分支执行命令，生成Public文件</span><br><span class="line">cd hexo</span><br><span class="line">$hexo g</span><br></pre></td></tr></table></figure>
-<p>3：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">将hexo分支文件夹通过 generate命令生成的 Public文件夹中的内容，拷贝到 master主干文件夹</span><br><span class="line">（拷贝前先使用GitShell与远端进行同步，否则冲突）</span><br></pre></td></tr></table></figure>
-<p>4:</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">在GitShell中执行以下操作</span><br><span class="line">commit and push master  发布静态资源</span><br><span class="line">commit and push hexo    同步网站源文件</span><br></pre></td></tr></table></figure>
-<p>至此，博客的所有发布与同步流程结束。</p>
-<p>如果有时间我可能会用ts写一个自动发布脚本，有时候只是为了写一篇文章、改几个字，反复执行这个操作，挺弱智的。</p>
+<h4><span id="第一步">第一步：</span></h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">在hexo中编辑博客源文件</span><br><span class="line">（编辑前先使用GitShell与远端进行同步，否则冲突）</span><br></pre></td></tr></table></figure>
+<h4><span id="第二步">第二步：</span></h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">在hexo分支执行命令，生成Public文件</span><br><span class="line">cd hexo</span><br><span class="line">$hexo g</span><br></pre></td></tr></table></figure>
+<h4><span id="第三步">第三步：</span></h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">将hexo分支文件夹通过 generate命令生成的 Public文件夹中的内容，拷贝到 master主干文件夹</span><br><span class="line">（拷贝前先使用GitShell与远端进行同步，否则冲突）</span><br></pre></td></tr></table></figure>
+<h4><span id="第四步">第四步:</span></h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">在GitShell中执行以下操作</span><br><span class="line">commit and push master  发布静态资源</span><br><span class="line">commit and push hexo    同步网站源文件</span><br></pre></td></tr></table></figure>
+<h4><span id="至此博客的所有-发布-与-同步-流程结束">至此，博客的所有 发布 与 同步 流程结束。</span></h4><p>如果有时间我可能会用ts写一个自动发布脚本，有时候只是为了写一篇文章、改几个字，反复执行这个操作，太繁琐了。</p>
 
         </div>
         <div class="article-tags tags">
