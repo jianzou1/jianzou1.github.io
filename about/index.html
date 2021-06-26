@@ -16,9 +16,8 @@ body, .box1::before {
 }
 
 .box1 {
-	width: 320px;
 	text-align: left;
-	margin: 140px auto;
+	margin: 120px auto;
 	color: #F5F5F5;
 	font-size: 15px;
 	font-family: 等线, Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
@@ -30,6 +29,7 @@ body, .box1::before {
 	box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
 	text-shadow: 2px 2px 2px rgb(0, 0, 0,0.7);
 	overflow: hidden;
+
 }
 
 .box1:before {
@@ -49,10 +49,51 @@ body, .box1::before {
 	transform: cale(99.5%) translate(-3px, -3px);
 	z-index: 2;
 }
+
+
+
+
+.box1,.front,.back {
+	width: 320px;
+	height: 500px;
+}
+.front,.back {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	backface-visibility: hidden;
+}
+
+.box1 {
+	perspective: 1000;
+	transform-style: preserve-3d;
+}
+
+.flip {
+	position: relative;
+	transition: 0.6s;
+	transform-style: preserve-3d;
+}
+
+.front {
+	z-index: 2;
+}
+
+.back {
+	transform: rotateY(-180deg);
+}
+
+.box1:active .flip {
+	transform: rotateY(180deg);
+}
+
+
 </style>
 </head>
 <body>
 <div  class="box1">
+	<div class="flip">
+<div class="front">
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=300 height=90 src="//music.163.com/outchain/player?type=2&id=1822358235&auto=0&height=66"></iframe>
 <h1>你好</h1>
 <h4>我是：间奏</h4>
@@ -67,5 +108,19 @@ body, .box1::before {
 <p><a href="https://jianzou.art/" target="_blank"><span style="color:#F5F5F5;">点击此处回到我的主页</span></a></p>
 <p><a href="https://jianzou.art/2021/aboutMySite/" target="_blank"><span style="color:#F5F5F5;">点击此处查看关于该博客的详情</span></a></p>
  </div>
+
+
+
+ <div class="back">
+	</br>
+	<p>111</a></p>
+	<p><a href="https://jianzou.art/2021/aboutMySite/" target="_blank"><span style="color:#F5F5F5;">点击此处查看关于该博客的详情</span></a></p>
+	 </div>
+	</div>
+</div>
+</div>
+
+
+
 </body>
 </html>
