@@ -48,7 +48,7 @@
 
     &:hover {
       @media (prefers-color-scheme: dark) {
-        background-color: darken($dark-mode-light-background, 6%);
+        background-color: $material-blue;
       }
     }
 
