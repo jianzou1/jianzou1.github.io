@@ -4,9 +4,11 @@
  <title>我的朋友，在他发现自己长出翅膀后，他吃掉了自己的翅膀</title>
  <meta charset="UTF-8">
  <meta name="referrer" content="no-referrer" />
+ <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=1.0, user-scalable=no">
  <link rel="shortcut icon" href="/img/favicon.ico">
  <link rel="stylesheet" href="\about\font-awesome\css\font-awesome.min.css">
  <style type="text/css">
+ 
 body,.box1::before {
 	background: url("https://wx1.sinaimg.cn/mw2000/edbc6d1agy1gksf9xojr4j20u60u0kjt.jpg") 0 / cover fixed;
 	background-size: 850px auto;
@@ -25,14 +27,14 @@ body,.box1::before {
 	font-size: 15px;
 	font-family: 等线, Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
 	font-weight: bold;
-	transition: all 0.1s ease-out;
+	transition: all 0.5s ease-out;
 	display: block;
 	border-radius: 5px;
 	box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
 	text-shadow: 2px 2px 2px rgb(0, 0, 0,0.8);
 	transform-style: preserve-3d;
-	perspective: 1000;
-	-webkit-perspective: 1000;
+	perspective: 500px;
+	-webkit-perspective: 500px;
 	
 }
 
@@ -45,7 +47,7 @@ body,.box1::before {
 	right: 0;
 	filter: blur(35px);
 	z-index: -2;
-	margin: 1px;
+	margin: -1px;
 }
 
 .box1:hover {
@@ -54,12 +56,16 @@ body,.box1::before {
 
 .box1 {
 	width: 400px;
-	height: 450px;
-
+	height: 470px;
 }
 
 .front {
-	padding: 15px 25px 1px 45px;
+	padding-top: 2%;
+	padding-bottom: 20%;
+	padding-left: 10%;
+	padding-right: 10%;
+	line-height: 20px;
+	-webkit-line-height: 20px;
 	white-space: nowrap;
 	position: absolute;
 	top: 0;
@@ -69,29 +75,31 @@ body,.box1::before {
 }
 
 .back {
-	padding: 15px 55px 1px 45px;
+	padding-top: 5%;
+	padding-bottom: 10%;
+	padding-left: 10%;
+	padding-right: 15%;
 	white-space: nowrap;
 	color: #F5F5F5;
-	font-size: 15px;
 	position: absolute;
 	top: 0;
 	transform: rotateY(180deg);
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
-	margin-top: 15px;
+	margin-top: 3%;
 }
 
 button {
-	width: 45px;
-	height: 45px;
+	width: 75px;
+	height: 75px;
 	position: absolute;
-	top: 55%;
-	left: 72%;
-	background: rgba(255, 255, 255, 0.404);
+	top: 110%;
+	left: 63%;
+	background: rgba(255, 255, 255, 0.13);
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 	text-shadow: 2px 2px 2px rgb(0, 0, 0,1);
 	border: none;
-	border-radius: 30px;
+	border-radius: 50px;
 	font-size: 16px;
 	color: #F5F5F5;
 	padding: 5px;
@@ -122,10 +130,12 @@ button:hover {
 .music {
 	width: 35px;
 	margin-top: 70px;
-	margin-left: 37%;
+	margin-left: 40%;
 	-webkit-margin-left: 24.5%;
 }
+
 </style>
+
 
 </head>
 <body ontouchstart="" onmouseover="">
@@ -143,7 +153,6 @@ button:hover {
 </br>
 <p>现实世界的帧数 = 1E34 hz</p>
 <p>而我大部分时候的我 = 144 hz</p>
-</br>
 <p><a href="https://jianzou.art/" target="_blank"><span style="color:#F5F5F5;">点击此处回到我的主页</span></a></p>
 <p><a href="https://jianzou.art/2021/aboutMySite/" target="_blank"><span style="color:#F5F5F5;">点击此处查看关于该博客的详情</span></a></p>
  </div>
@@ -157,7 +166,7 @@ button:hover {
 	</div>
 </div>
 </div>
-<button id="btn"><i class="fa fa-chevron-right fa-lg"></i></button>
+<button id="btn"><i class="fa fa-chevron-right fa-2x"></i></button>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js">
 </script>
 <script>
