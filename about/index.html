@@ -9,7 +9,7 @@
  <link rel="stylesheet" href="\about\font-awesome\css\font-awesome.min.css">
  <style type="text/css">
  
-body,.box1::before {
+body,.box1:before {
 	background: url("https://wx1.sinaimg.cn/mw2000/edbc6d1agy1gksf9xojr4j20u60u0kjt.jpg") 0 / cover fixed;
 	background-size: 850px auto;
 	background-position: center 3%;
@@ -27,15 +27,13 @@ body,.box1::before {
 	font-size: 15px;
 	font-family: 等线, Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
 	font-weight: bold;
-	transition: all 0.5s ease-out;
-	display: block;
+	transition: all 0.3s ease-out;
 	border-radius: 5px;
-	box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
-	text-shadow: 2px 2px 2px rgb(0, 0, 0,0.8);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+	text-shadow: 2px 1px 2px rgb(0, 0, 0,1);
 	transform-style: preserve-3d;
 	perspective: 500px;
 	-webkit-perspective: 500px;
-	
 }
 
 .box1:before {
@@ -45,13 +43,13 @@ body,.box1::before {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	filter: blur(35px);
+	filter: blur(6px);
 	z-index: -2;
-	margin: -1px;
+	margin: 0.5%;
 }
 
 .box1:hover {
-	transform: scale(99.5%) translate(-3px, -3px);
+	transform: translate(-2px, -2px);
 }
 
 .box1 {
@@ -93,8 +91,8 @@ button {
 	width: 75px;
 	height: 75px;
 	position: absolute;
-	top: 110%;
-	left: 63%;
+	top: 106%;
+	left: 58%;
 	background: rgba(255, 255, 255, 0.13);
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 	text-shadow: 2px 2px 2px rgb(0, 0, 0,1);
@@ -104,8 +102,8 @@ button {
 	color: #F5F5F5;
 	padding: 5px;
 	text-align: center;
-	-webkit-transition-duration: 0.1s;
-	transition-duration: 0.1s;
+	transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -114,6 +112,8 @@ button:active {
 	box-shadow: 0 6px rgb(0, 0, 0);
 	transform: translateY(2px);
 	-webkit-transform: translateY(2px);
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
 }
 
 button:active:after {
@@ -128,17 +128,32 @@ button:hover {
 }
 
 .music {
-	width: 35px;
-	margin-top: 70px;
-	margin-left: 40%;
-	-webkit-margin-left: 24.5%;
+	position: relative;
+	top: 25%;
+	left: 39.1%;
+	margin-top: 4%;
+}
+
+@media screen and (max-width: 550px) {
+	.music {
+		top: 15%;
+		left: 4.8%;
+		margin-top: 9%;
+	}
+
+	button {
+		top: 105%;
+		left: 75%;
+	}
 }
 
 </style>
 
 
+
+
 </head>
-<body ontouchstart="" onmouseover="">
+
 	<div  class="music">
 		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=240 height=90 src="//music.163.com/outchain/player?type=2&id=1822358235&auto=0&height=66"></iframe>
 		</div>	
