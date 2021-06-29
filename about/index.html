@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE HTML>
 <html lang="zh-cmn-Hans">
 <head>
@@ -7,10 +9,23 @@
  <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=1.0, user-scalable=no">
  <link rel="shortcut icon" href="/img/favicon.ico">
  <link rel="stylesheet" href="\about\font-awesome\css\font-awesome.min.css">
+ <script>
+	//设定图片数量，如果图片数为3，这个参数就设为2，以此类推
+   bg = new Array(1);
+   bg[0] = 'https://wx1.sinaimg.cn/mw2000/edbc6d1agy1gksf9xojr4j20u60u0kjt.jpg' 
+   bg[1] = 'https://wx4.sinaimg.cn/mw1024/edbc6d1agy1gksf9oiusvj20ub0u0kjr.jpg'
+   index = Math.floor(Math.random() * bg.length);
+   	//通过打印方式创建body的起始节点，因为伪元素必须包含在body节点之外，将js函数放置再次才不会报错
+   document.write("<BODY BACKGROUND="+bg[index]+">");
+	//将所随机背景写入伪元素
+   var sty=document.createElement('style');
+   sty.innerText="body,.box1::before {background: url("+bg[index]+")";
+   document.body.appendChild(sty);
+</script>
+
  <style type="text/css">
  
-body,.box1:before {
-	background: url("https://wx1.sinaimg.cn/mw2000/edbc6d1agy1gksf9xojr4j20u60u0kjt.jpg") 0 / cover fixed;
+ body,.box1:before {
 	background-size: 850px auto;
 	background-position: center 3%;
 	background-repeat: no-repeat;
@@ -146,13 +161,11 @@ button:hover {
 		left: 75%;
 	}
 }
-
 </style>
 
 
-
-
-</head>
+<head>
+<body>
 
 	<div  class="music">
 		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=240 height=90 src="//music.163.com/outchain/player?type=2&id=1822358235&auto=0&height=66"></iframe>
@@ -166,7 +179,7 @@ button:hover {
 <p>正在设计的游戏类型：模拟经营</p>
 <p>上一次设计的游戏类型：Action RTS</p>
 </br>
-<p>现实世界的帧数 = 1E34 hz</p>
+<p>现实世界的帧数 = 1.e+34 hz</p>
 <p>而我大部分时候的我 = 144 hz</p>
 <p><a href="https://jianzou.art/" target="_blank"><span style="color:#F5F5F5;">点击此处回到我的主页</span></a></p>
 <p><a href="https://jianzou.art/2021/aboutMySite/" target="_blank"><span style="color:#F5F5F5;">点击此处查看关于该博客的详情</span></a></p>
@@ -198,6 +211,5 @@ else {
 });
 })
 </script>
-
 </body>
 </html>

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 #footer {
   position: relative;
   padding: 0 20px 30px 20px;
@@ -90,7 +89,7 @@
     line-height: 36px;
     height: 36px;
     font-size: 12px;
-    font-family: "Roboto", 等线, Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
     border: none;
     border-radius: 0 !important;
     background: #414141;
