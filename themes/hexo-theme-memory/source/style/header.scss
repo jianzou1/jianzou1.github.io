@@ -50,6 +50,8 @@
       @media (prefers-color-scheme: dark) {
         background-color: $material-blue;
       }
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      
     }
 
     @media (max-width: $on-phone)  {
@@ -76,6 +78,7 @@
       color: white;
       font-size: 12px;
       transition: all 0.24s;
+      margin-top: 1px;
 
       @media (max-width: $on-phone)  {
         font-size: 12px;
