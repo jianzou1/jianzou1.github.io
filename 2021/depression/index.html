@@ -402,20 +402,11 @@
 <blockquote>
 <p>按num列，与主表中对应num列的value列复制到该表中，开始测量</p>
 </blockquote>
-<pre class="line-numbers language-none"><code class="language-none">可以使用Excel中的VLOOKUP函数进行快速索引获取主表值
-&#x3D;VLOOKUP(A:A,测量总表!A:C,3,FALSE)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs plaintext">可以使用Excel中的VLOOKUP函数进行快速索引获取主表值<br>=VLOOKUP(A:A,测量总表!A:C,3,FALSE)<br></code></pre></td></tr></table></figure>
 <blockquote>
 <p>将所获取值相加后，获得程度判断值</p>
 </blockquote>
-<pre class="line-numbers language-none"><code class="language-none">&#x3D;(
-    IF($B$18&gt;&#x3D;34,&quot;非常严重&quot;,
-    IF($B$18&gt;&#x3D;26,&quot;重度&quot;,
-    IF($B$18&gt;&#x3D;19,&quot;中度&quot;,
-    IF($B$18&gt;&#x3D;15,&quot;轻微&quot;,&quot;正常&quot;)
-                )
-            )
-        )
-    )<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs plaintext">=(<br>    IF($B$18&gt;=34,&quot;非常严重&quot;,<br>    IF($B$18&gt;=26,&quot;重度&quot;,<br>    IF($B$18&gt;=19,&quot;中度&quot;,<br>    IF($B$18&gt;=15,&quot;轻微&quot;,&quot;正常&quot;)<br>                )<br>            )<br>        )<br>    )<br></code></pre></td></tr></table></figure>
 <blockquote>
 <p>压力计算结束</p>
 </blockquote>
@@ -486,21 +477,11 @@
 <blockquote>
 <p>按num列，与主表中对应num列的value列复制到该表中，开始测量</p>
 </blockquote>
-<pre class="line-numbers language-none"><code class="language-none">可以使用Excel中的VLOOKUP函数进行快速索引获取主表值
-&#x3D;VLOOKUP(A:A,测量总表!A:C,3,FALSE)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs plaintext">可以使用Excel中的VLOOKUP函数进行快速索引获取主表值<br>=VLOOKUP(A:A,测量总表!A:C,3,FALSE)<br></code></pre></td></tr></table></figure>
 <blockquote>
 <p>将所获取值相加后，获得程度判断值</p>
 </blockquote>
-<pre class="line-numbers language-none"><code class="language-none">可以使用Excel中的IF函数进行嵌套快速判断程度
-&#x3D;(
-    IF($B$18&gt;&#x3D;20,&quot;非常严重&quot;,
-    IF($B$18&gt;&#x3D;15,&quot;重度&quot;,
-    IF($B$18&gt;&#x3D;10,&quot;中度&quot;,
-    IF($B$18&gt;&#x3D;8,&quot;轻微&quot;,&quot;正常&quot;)
-                )
-            )
-        )
-    )<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs plaintext">可以使用Excel中的IF函数进行嵌套快速判断程度<br>=(<br>    IF($B$18&gt;=20,&quot;非常严重&quot;,<br>    IF($B$18&gt;=15,&quot;重度&quot;,<br>    IF($B$18&gt;=10,&quot;中度&quot;,<br>    IF($B$18&gt;=8,&quot;轻微&quot;,&quot;正常&quot;)<br>                )<br>            )<br>        )<br>    )<br></code></pre></td></tr></table></figure>
 <blockquote>
 <p>焦虑计算结束</p>
 </blockquote>
@@ -571,21 +552,11 @@
 <blockquote>
 <p>按num列，与主表中对应num列的value列复制到该表中，开始测量</p>
 </blockquote>
-<pre class="line-numbers language-none"><code class="language-none">可以使用Excel中的VLOOKUP函数进行快速索引获取主表值
-&#x3D;VLOOKUP(A:A,测量总表!A:C,3,FALSE)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs plaintext">可以使用Excel中的VLOOKUP函数进行快速索引获取主表值<br>=VLOOKUP(A:A,测量总表!A:C,3,FALSE)<br></code></pre></td></tr></table></figure>
 <blockquote>
 <p>将所获取值相加后，获得程度判断值</p>
 </blockquote>
-<pre class="line-numbers language-none"><code class="language-none">可以使用Excel中的IF函数进行嵌套快速判断程度
-&#x3D;(
-    IF($B$18&gt;&#x3D;28,&quot;非常严重&quot;,
-    IF($B$18&gt;&#x3D;21,&quot;重度&quot;,
-    IF($B$18&gt;&#x3D;14,&quot;中度&quot;,
-    IF($B$18&gt;&#x3D;10,&quot;轻微&quot;,&quot;正常&quot;)
-                )
-            )
-        )
-    )<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs plaintext">可以使用Excel中的IF函数进行嵌套快速判断程度<br>=(<br>    IF($B$18&gt;=28,&quot;非常严重&quot;,<br>    IF($B$18&gt;=21,&quot;重度&quot;,<br>    IF($B$18&gt;=14,&quot;中度&quot;,<br>    IF($B$18&gt;=10,&quot;轻微&quot;,&quot;正常&quot;)<br>                )<br>            )<br>        )<br>    )<br></code></pre></td></tr></table></figure>
 <blockquote>
 <p>抑郁计算结束</p>
 </blockquote>
