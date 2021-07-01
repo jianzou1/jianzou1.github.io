@@ -9,9 +9,19 @@
  <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=1.0, user-scalable=no">
  <link rel="shortcut icon" href="/img/favicon.ico">
  <link rel="stylesheet" href="\about\font-awesome\css\font-awesome.min.css">
- <script type="text/javascript" src="https://api.uixsj.cn/hitokoto/get?type=hitokotol&code=js">
-   //一言js
- </script>
+
+ <script>
+	 //调用一言API
+	window.onload = function get_Ajax(){
+		$.get('https://v1.hitokoto.cn/?c=k&encode=json',{},function(response){
+			$('#td2').html(response.hitokoto);
+		},'json');
+	}
+	function Ajax_start(){
+		setInterval(get_Ajax,1000000);   
+	}
+</script>
+
  <script>
 	//设定图片数量，如果图片数为3，这个参数就设为2，以此类推
    bg = new Array(1);
@@ -109,7 +119,7 @@ button {
 	width: 75px;
 	height: 75px;
 	position: absolute;
-	top: 106%;
+	top: 102%;
 	left: 58%;
 	background: rgba(255, 255, 255, 0.13);
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
@@ -147,9 +157,9 @@ button:hover {
 
 
 .yan{
-	line-height: 25px;
-	padding: 5px;
-	width: 390px;
+	line-height: 10px;
+	padding: 3px;
+	width: 380px;
 	text-align: center;
 	margin: 20px auto;
 	font-size: 15px;
@@ -158,7 +168,6 @@ button:hover {
 	transition: all 0.3s ease-out;
 	border-radius: 5px;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
-	cursor:pointer;
     background-image:-webkit-linear-gradient(top left,#9FA5D5,#e8f5c8); 
 	text-shadow: 2px 1px 2px rgb(0, 0, 0,1);
 	color: rgb(255, 254, 254);
@@ -183,11 +192,7 @@ button:hover {
 		left: 75%;
 	}
 }
-
-
-
 </style>
-
 
 <head>
 <body>
@@ -218,17 +223,20 @@ button:hover {
 	</div>
 </div>
 
-<button id="btn"><i class="fa fa-chevron-right fa-2x"></i></button>
+<div class="yan">
+	<p id="td2"><p>
+
+<button id="btn">
+	<i class="fa fa-chevron-right fa-2x"></i>
+</button>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js">
 </script>
 <script>
 $(() => {
 	$("#btn").click(() => {
-
 if($(".box1").attr("style") == undefined){
 	$(".box1").css("transform","rotateY(180deg)");
 }
-
 else {
 	$(".box1").removeAttr("style");
 }      
@@ -236,9 +244,10 @@ else {
 })
 </script>
 
-<div class="yan">
-	<script>hitokoto()</script>
+
 </div>
+<!-- <input type="button" value="开始Ajax请求" onclick="Ajax_start()"> -->
+
 
 </body>
 
