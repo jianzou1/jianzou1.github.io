@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://jianzou.art/2021/vogue/</loc>
+    <lastmod>2021-07-22</lastmod>
+  </url>
+  <url>
     <loc>https://jianzou.art/2021/hello-world/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-02</lastmod>
   </url>
   <url>
     <loc>https://jianzou.art/2021/depression/</loc>
-    <lastmod>2021-06-30</lastmod>
+    <lastmod>2021-07-02</lastmod>
   </url>
   <url>
     <loc>https://jianzou.art/2021/sunset1/</loc>
-    <lastmod>2021-06-29</lastmod>
+    <lastmod>2021-07-02</lastmod>
   </url>
   <url>
     <loc>https://jianzou.art/2021/aboutMySite/</loc>
-    <lastmod>2021-06-29</lastmod>
+    <lastmod>2021-07-02</lastmod>
   </url>
 </urlset> 
