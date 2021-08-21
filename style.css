@@ -1052,7 +1052,6 @@ pre {
           background: rgba(0, 150, 136, 0.6); } }
   .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
     position: relative;
-    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
     font-weight: bold;
     margin: 40px auto 30px auto;
     left: 20px; }
@@ -1094,7 +1093,6 @@ pre {
     .content pre figure {
       margin: 0; }
   .content code {
-    font-family: Consolas, Monaco, Menlo, monospace;
     color: #f59200;
     padding: 3px 5px;
     margin: 0 2px;
