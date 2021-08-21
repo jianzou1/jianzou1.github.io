@@ -8,13 +8,23 @@
  <link rel="shortcut icon" href="/img/favicon.ico">
  <link rel="stylesheet" href="\about\font-awesome\css\font-awesome.min.css">
 
+
+ <script type="text/javascript" src="http://cdn.repository.webfont.com/wwwroot/js/wf/youziku.api.min.js"></script>
+ <script type="text/javascript">
+	$webfont.load("body", "56117b2624e6424ebce771f4425cdf7c", "HiraginoGBW3");
+	/*$webfont.load("#id1,.class1,h1", "56117b2624e6424ebce771f4425cdf7c", "HiraginoGBW3");*/
+	/*．．．*/
+	$webfont.draw();
+ </script>
+
+
  <script>
 	//设定图片数量，如果图片数为3，这个参数就设为2，以此类推
    bg = new Array(1);
    bg[0] = 'https://wx1.sinaimg.cn/mw2000/edbc6d1agy1gksf9xojr4j20u60u0kjt.jpg' 
    bg[1] = 'https://wx4.sinaimg.cn/mw1024/edbc6d1agy1gksf9oiusvj20ub0u0kjr.jpg'
    index = Math.floor(Math.random() * bg.length);
-   	//通过打印方式创建body的起始节点，因为伪元素必须包含在body节点之外，将js函数放置再次才不会报错
+   	//通过打印方式创建body的起始节点，因为伪元素必须包含在body节点之外，将js函数放置在此才不会报错
    document.write("<BODY BACKGROUND="+bg[index]+">");
 	//将所随机背景写入伪元素
    var sty=document.createElement('style');
@@ -23,7 +33,7 @@
 </script>
 
  <style type="text/css">
- 
+
  body,.box1:before {
 	background-size: 850px auto;
 	background-position: center 3%;
@@ -39,8 +49,6 @@
 	margin: 5px auto;
 	color: #F5F5F5;
 	font-size: 15px;
-	font-family: 等线, Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
-	font-weight: bold;
 	transition: all 0.3s ease-out;
 	border-radius: 5px;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
@@ -76,7 +84,7 @@
 }
 
 .front {
-	padding-top: 2%;
+	padding-top: 6%;
 	padding-bottom: 5%;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -151,9 +159,7 @@ button:hover {
 	width: 380px;
 	text-align: center;
 	margin: 15px auto;
-	font-size: 15px;
-	font-family: 等线, Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
-	font-weight: bold;
+	font-size: 13px;
 	transition: all 0.3s ease-out;
 	border-radius: 5px;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
@@ -214,7 +220,7 @@ button:hover {
 
 <div class="yan">
 	<p class="hitokoto"><i class="fa fa-refresh fa-spin"></i><p>
-	<p class="from"><p>
+	<p class="from"><p></p>
 	</div>
 	
 <button id="btn">
@@ -242,14 +248,14 @@ function yan() {
     update();
     function update() {
         gethi = new XMLHttpRequest();
-        gethi.open("GET","https://v1.hitokoto.cn/?c=h&encode=json");
+        gethi.open("GET","https://v1.hitokoto.cn/?c=c&encode=json&max_length=20");
         //这里选择类别，详见官方文档
         gethi.send();
         gethi.onreadystatechange = function () {
             if (gethi.readyState===4 && gethi.status===200) {
                 var Hi = JSON.parse(gethi.responseText);
                 hitokoto.innerHTML = Hi.hitokoto;
-                from.innerHTML = "<b>" + Hi.from + "</b>"; //可自定义输出格式
+                from.innerHTML = Hi.from ; //可自定义输出格式
 }
         }
     }
