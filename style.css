@@ -406,7 +406,7 @@ html {
 body {
   width: 100%;
   height: 100%;
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+  font-family: "PingFang SC", "Roboto", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
   font-size: 1.8rem;
   line-height: 1.5em;
   color: #414141;
@@ -582,7 +582,7 @@ pre {
   border: 1px solid #000000;
   padding: 0 15px;
   font-size: 13px;
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+  font-family: "PingFang SC", "Roboto", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
   text-align: center;
   color: #c2c2c2; }
   @media (prefers-color-scheme: dark) {
@@ -798,7 +798,7 @@ pre {
     line-height: 36px;
     height: 36px;
     font-size: 12px;
-    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+    font-family: "PingFang SC", "Roboto", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
     border: none;
     border-radius: 0 !important;
     background: #414141;
@@ -1052,6 +1052,7 @@ pre {
           background: rgba(0, 150, 136, 0.6); } }
   .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
     position: relative;
+    font-family: "PingFang SC", "Roboto", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
     font-weight: bold;
     margin: 40px auto 30px auto;
     left: 20px; }
@@ -1077,7 +1078,7 @@ pre {
     display: block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: Consolas, Monaco, Menlo, monospace;
+    font-family: Consolas, Monaco, Menlo, monospace, "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
     width: 100%;
     margin: 20px 0;
     padding: 10px 15px;
@@ -1093,6 +1094,7 @@ pre {
     .content pre figure {
       margin: 0; }
   .content code {
+    font-family: Consolas, Monaco, Menlo, monospace, "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
     color: #f59200;
     padding: 3px 5px;
     margin: 0 2px;
