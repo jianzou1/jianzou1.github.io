@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="zh-cmn-Hans">
 <head>
- <title>我的朋友，在他发现自己长出翅膀后，他吃掉了自己的翅膀</title>
+ <title>关于</title>
  <meta charset="UTF-8">
  <meta name="referrer" content="no-referrer" />
  <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=1.0, user-scalable=no">
@@ -26,10 +26,10 @@
  <style type="text/css">
 
  body,.box1:before {
-	background-size: 850px auto;
+	background-size: 600px auto;
 	background-position: center 3%;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: local;
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 	position: relative;
@@ -38,9 +38,10 @@
 
 .box1 {
 	width: 400px;
-	height: 470px;
+	height: 400px;
 	text-align: left;
-	margin: 5px auto;
+	margin: 10px auto;
+	margin-top: 3%;
 	color: #F5F5F5;
 	font-size: 15px;
 	transition: all 0.3s ease-out;
@@ -104,15 +105,15 @@
 
 button {
 	width: 75px;
-	height: 75px;
-	position: absolute;
-	top: 102%;
-	left: 58%;
-	background: rgba(255, 255, 255, 0.13);
+	height: 35px;
+	position: relative;
+	margin: 5px auto;
+	left: 56%;
+	background: rgba(255, 255, 255, 0.2);
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 	text-shadow: 2px 2px 2px rgb(0, 0, 0,1);
 	border: none;
-	border-radius: 50px;
+	border-radius: 5px;
 	font-size: 16px;
 	color: #F5F5F5;
 	padding: 5px;
@@ -145,31 +146,25 @@ button:hover {
 .yan {
 	line-height: 10px;
 	padding: 2px;
-	width: 380px;
+	width: 395px;
 	text-align: center;
-	margin: 15px auto;
+	margin: 2px auto;
 	font-size: 13px;
 	transition: all 0.3s ease-out;
 	border-radius: 5px;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 	background-image: linear-gradient( 135deg, #97ABFF 10%, #123597 100%);
 	text-shadow: 2px 1px 2px rgb(0, 0, 0,1);
 	color: rgb(255, 255, 255);
 }
 
-.music {
-	position: relative;
-	top: 15%;
-	left: 39.1%;
-	margin-top: 4%;
+.box2 {
+	width: 400px;
+	margin:auto;
+	margin-top: 4.5%;
 }
 
 @media screen and (max-width: 550px) {
-	.music {
-		top: 15%;
-		left: 4.8%;
-		margin-top: 9%;
-	}
 
 	button {
 		top: 105%;
@@ -179,24 +174,17 @@ button:hover {
 </style>
 
 <head>
-<body onload="yan()">
-
-<div  class="music">
-		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=240 height=90 src="//music.163.com/outchain/player?type=2&id=1822358235&auto=0&height=66"></iframe>
-</div>	
+<body onload="yan()">	
 <div  class="box1">
 <div class="front">
 <h1>你好</h1>
 <h4>我是：间奏</h4>
 <p>37%的摄影，42%的游戏，22%的文学，组成：我</p>
 <p>该页面使用的主题色：克莱因蓝 </p>
-<p>正在设计的游戏类型：模拟经营</p>
-<p>上一次设计的游戏类型：Action RTS</p>
 </br>
-<p>现实世界的帧数 = 1.e+34 hz</p>
-<p>而我大部分时候的我 = 144 hz</p>
 <p><a href="https://jianzou.art/" target="_blank"><span style="color:#F5F5F5;">点击此处回到我的主页</span></a></p>
 <p><a href="https://jianzou.art/2021/aboutMySite/" target="_blank"><span style="color:#F5F5F5;">点击此处查看关于该博客的详情</span></a></p>
+<p>或者可以在下方给我留言</p>
  </div>
 
  <div class="back">
@@ -206,17 +194,36 @@ button:hover {
 	</p>系统策划：负责A-RTS类游戏核心系统设计</p>
 	</div>
 </div>
-
+<button id="btn">
+	<i class="fa fa-chevron-right fa-lg" onClick="overturn(),yan()"></i>
+</button>
 <div class="yan">
 	<p class="hitokoto"><i class="fa fa-refresh fa-spin"></i><p>
 	<p class="from"><p></p>
-	</div>
-	
-<button id="btn">
-	<i class="fa fa-chevron-right fa-2x" onClick="overturn(),yan()"></i>
-</button>
+</div>
 
+<!-- 来必力City版安装代码 -->
+<div class="box2">
+<div id="lv-container" data-id="city" data-uid="MTAyMC81NDA2Ni8zMDUzOA==">
+	<script type="text/javascript">
+	   (function(d, s) {
+		   var j, e = d.getElementsByTagName(s)[0];
+	
+		   if (typeof LivereTower === 'function') { return; }
+	
+		   j = d.createElement(s);
+		   j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+		   j.async = true;
+	
+		   e.parentNode.insertBefore(j, e);
+	   })(document, 'script');
+	</script>
+	<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+	</div>
+</div>
+	<!-- City版安装代码已完成 -->
 <script>
+
 function overturn() {
 	if($(".box1").attr("style") == undefined){
 	$(".box1").css("transform","rotateY(180deg)");
@@ -248,6 +255,5 @@ function yan() {
     }
 }
 </script>
-<!-- <input type="button" value="开始Ajax请求" onclick="Ajax_start()"> -->
 </body>
 </html>
