@@ -25,6 +25,8 @@ tags: photography
 > [FUJINON XF18-55mmF2.8-4 R LM OIS](https://fujifilm-x.com/zh-cn/products/lenses/xf18-55mmf28-4-r-lm-ois/)
 >
 > [FUJINON XF35mmF1.4 R](https://fujifilm-x.com/zh-cn/products/lenses/xf35mmf14-r/)
+>
+> [GODOX V350F](https://www.godox.com/product-d/V350F.html)
 
 ## 预约流程
 
