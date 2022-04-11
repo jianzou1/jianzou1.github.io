@@ -8,9 +8,11 @@ tags: photography
 
 如有机会与您合作 ，我会竭尽全力完成每一部艺术作品。
 
+<font color="red">**Gallery**</font>：[间奏 • 小红书 / RED (xiaohongshu.com)](https://www.xiaohongshu.com/user/profile/5cde55980000000010029557?xhsshare=CopyLink&appuid=5cde55980000000010029557&apptime=1647576045)
+
 <font color="green">**Wechat**</font>：jianzou1
 
-<font color="red">**Gallery**</font>：[间奏 • 小红书 / RED (xiaohongshu.com)](https://www.xiaohongshu.com/user/profile/5cde55980000000010029557?xhsshare=CopyLink&appuid=5cde55980000000010029557&apptime=1647576045)
+**Weibo**：[间奏的微博 (weibo.com)](https://weibo.com/534778991)
 
 **Mail**：jianzou1@qq.com
 
@@ -45,4 +47,3 @@ tags: photography
 ###### 注意：
 
 > 如您已支付拍摄所需要的定金，则默认同意免责声明中的所有条例
->
