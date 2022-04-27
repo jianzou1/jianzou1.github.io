@@ -12,13 +12,11 @@ tags: photography
 
 <font color="green">**Wechat**</font>：jianzou1
 
-**Weibo**：[间奏的微博 (weibo.com)](https://weibo.com/534778991)
-
 **Mail**：jianzou1@qq.com
 
 ## 关于我
 
-> 间奏 Shelton：男的，自由摄影师，只会拍写真
+> [间奏 Shelton](https://weibo.com/534778991)：男的，自由摄影师，只会拍写真
 >
 > Add.：**福建福州**，可在福建省内拍摄，**视情况外省旅拍**
 >
@@ -29,20 +27,20 @@ tags: photography
 > |                                                              |
 > | ------------------------------------------------------------ |
 > | [FUJIFILM富士 X-S10](https://fujifilm-x.com/zh-cn/products/cameras/x-s10/) |
-> | [FUJINON XF18-55mmF2.8-4 R LM OIS](https://fujifilm-x.com/zh-cn/products/lenses/xf18-55mmf28-4-r-lm-ois/) |
-> | [FUJINON XF35mmF1.4 R](https://fujifilm-x.com/zh-cn/products/lenses/xf35mmf14-r/) |
+> | [FUJINON XF35mm F1.4 R](https://fujifilm-x.com/zh-cn/products/lenses/xf35mmf14-r/) |
+> | [SIGMA 16mm F1.4 DC DN  ](http://www.sigma-photo.com.cn/cs/lenses/cas/product/contemporary/c_16_14/) |
 
 ## 预约流程
 
 > 咨询
-> 阅读 <font color="purple">**免责声明**</font>
+> 阅读 <font color="lightpurple">**免责声明**</font>
 > 支付定金并确认拍摄时间
 > 拍摄，拍摄完成后当天支付尾款
 > 等待成片
 
-## <font color="purple">免责声明</font>
+## <font color="lightpurple">免责声明</font>
 
-> <font color="purple">**📄点击查看：**</font>[https://jianzou.art/2022/disclaimer]( https://jianzou.art/2022/disclaimer/)
+> <font color="lightpurple">**📄点击查看：**</font>[https://jianzou.art/2022/disclaimer]( https://jianzou.art/2022/disclaimer/)
 
 ###### 注意：
 
