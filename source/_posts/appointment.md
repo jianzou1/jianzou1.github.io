@@ -32,15 +32,37 @@ tags: photography
 
 ## 预约流程
 
+> 如果您是顾客，请阅读以下流程
+>
 > 咨询
-> 阅读 <font color="lightpurple">**免责声明**</font>
+>
+> 阅读 <font color="lightpurple">**免责声明（预约）**</font>
+>
 > 支付定金并确认拍摄时间
+>
 > 拍摄，拍摄完成后当天支付尾款
+>
 > 等待成片
 
-## <font color="lightpurple">免责声明</font>
+## 模特与合作
 
-> <font color="lightpurple">**📄点击查看：**</font>[https://jianzou.art/2022/disclaimer]( https://jianzou.art/2022/disclaimer/)
+> 如果您是"模特"或是其他“异业合作”的同学，请阅读以下流程
+>
+> 咨询
+>
+> 阅读 <font color="crismon">**免责声明（合作）**</font>
+>
+> 沟通合作形式（包括但不限于：写真创作、SKU拍摄、服装look拍摄、服装寄&送拍等）
+>
+> 拍摄
+>
+> 等待成片
+
+## 免责声明
+
+> <font color="lightpurple">**📄「免责声明（预约）」点击查看：**</font>[https://jianzou.art/2022/disclaimer]( https://jianzou.art/2022/disclaimer/)
+>
+> <font color="crismon">**📃「免责声明（合作）」点击查看：**</font>[https://jianzou.art/2022/cooperation]( https://jianzou.art/2022/cooperation/)
 
 ###### 注意：
 

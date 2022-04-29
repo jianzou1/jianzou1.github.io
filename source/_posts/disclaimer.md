@@ -1,5 +1,5 @@
 ---
-title: 免责声明
+title: 免责声明（预约）
 date: 2022-2-25 10:19:17
 tags: photography
 ---
