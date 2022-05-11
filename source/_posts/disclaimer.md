@@ -14,7 +14,7 @@ tags: photography
 
 2.摄影价值观：
 
-本人并非传统人像摄影师 ， 本人也不擅长拍摄~~糖水片~~ ，作品受到 [主观主义摄影](https://baike.baidu.com/item/主观主义摄影/3685804?fr=aladdin) 与 [新即物主义摄影](https://baike.baidu.com/item/新即物主义摄影) 的大量影响，调色大部分使用暗调，善于制造环境氛围与捕捉人物情绪。
+本人并非传统人像摄影师 ， 本人也不擅长拍摄~~糖水片~~ ，作品受到 主观主义摄影[<sup>1</sup>](#refer-anchor-1) 与 新即物主义摄影[<sup>2</sup>](#refer-anchor-2)   的大量影响，调色大部分使用暗调，善于制造环境氛围与捕捉人物情绪。
 
 在前期拍摄时，我会刻意制造出人物与环境的对比或包围效果，以体现个人摄影风格，以上特点是我的长年拍摄习惯，请确认喜欢我的风格后再决定是否预约 。
 
@@ -89,4 +89,18 @@ tags: photography
 我很感谢你能认真读到这里，以上，你觉得很奇葩或绝对不会发生在我们身上的条目，是我的亲身经历。
 
 辛苦你，能仔细看完，感谢你
+
+
+
+*引用：*
+
+> <div id="refer-anchor-1"></div>
+>
+> [1] [张功平. 摄影流派(12)主观主义摄影[J]. 摄影与摄像, 2014(3):1.](https://xueshu.baidu.com/usercenter/paper/show?paperid=65799881caa3e301e6d050176ec07fd4&site=xueshu_se)
+>
+> <div id="refer-anchor-2"></div>
+>
+> [2] [任一权. 新即物主义摄影[J]. 大众摄影：上半月, 2004(10):1.](https://xueshu.baidu.com/usercenter/paper/show?paperid=187g0g5022630g50yy390tf05f662270)
+
+
 
