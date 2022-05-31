@@ -38,6 +38,8 @@ tags: photography
 >
 > 阅读 <font color="lightpurple">**免责声明（预约）**</font>
 >
+> 查看 <font color="seagreen">**🧾「拍摄价目」 点击查看：**</font>[https://jianzou.art/2022/price_list]( https://jianzou.art/2022/price_list)
+>
 > 支付定金并确认拍摄时间
 >
 > 拍摄，拍摄完成后当天支付尾款
