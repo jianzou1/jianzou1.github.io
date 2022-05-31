@@ -65,7 +65,7 @@ tags: photography
 
 
 
-**📄「预约须知」点击返回：**[https://jianzou.art/2022/appointment](https://jianzou.art/2022/appointment/)
+**🔙「预约须知」点击返回：**[https://jianzou.art/2022/appointment](https://jianzou.art/2022/appointment/)
 
 **📄「免责声明（预约）」点击前往：**[https://jianzou.art/2022/disclaimer](https://jianzou.art/2022/disclaimer/)
 
