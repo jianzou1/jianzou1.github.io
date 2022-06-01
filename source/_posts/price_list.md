@@ -31,6 +31,12 @@ tags: photography
 > | 📔年度画册*：                              | 1本                                     |
 > | 🎬影棚使用：                               | ✅                                       |
 
+
+
+------
+
+
+
 ## 🎟️ <font color="darkorange">创意版本 Creative Ver.</font>
 
 > |              |      |             |
@@ -65,11 +71,7 @@ tags: photography
 > | 📙杂志投稿*：                              | ✅                                           |
 > | 🔓特殊外景解锁*：                          | ✅                                           |
 
-
-
-**🔙「预约须知」点击返回：**[https://jianzou.art/2022/appointment](https://jianzou.art/2022/appointment/)
-
-**📄「免责声明（预约）」点击前往：**[https://jianzou.art/2022/disclaimer](https://jianzou.art/2022/disclaimer/)
+------
 
 
 
@@ -88,3 +90,9 @@ tags: photography
 *🎟️杂志投稿：优秀作品将被摄影师投稿到杂志社，被杂志社选中的顾客将获得杂志的数码版“Tear Sheets”（撕页），指作品在杂志中的内页截取，一般经过了杂志社的二次裁图、排版、水印添加等处理
 
 *🎟️特殊外景解锁：只在摄影师常驻城市生效，经过摄影师多次踩点的秘密外景，如：城市废墟、历史残片、废弃公园等
+
+------
+
+**🔙「预约须知」点击返回：**[https://jianzou.art/2022/appointment](https://jianzou.art/2022/appointment/)
+
+**📄「免责声明（预约）」点击前往：**[https://jianzou.art/2022/disclaimer](https://jianzou.art/2022/disclaimer)
