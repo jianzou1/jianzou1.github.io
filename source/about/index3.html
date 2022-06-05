@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<html lang="zh-cmn-Hans">
+<head>
+ <title>关于</title>
+ <meta charset="UTF-8">
+ <meta name="referrer" content="same-origin">
+ <meta name="referrer" content="no-referrer" />
+ <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=1.0, user-scalable=no">
+ <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+ <link rel="shortcut icon" href="/img/favicon.ico">
+ <link rel="stylesheet" href="\about\font-awesome\css\font-awesome.min.css">
+ <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+ <script>
+	//设定图片数量，如果图片数为3，这个参数就设为2，以此类推
+   bg = new Array(1);
+   bg[0] = 'https://wx1.sinaimg.cn/mw2000/edbc6d1agy1gksf9xojr4j20u60u0kjt.jpg' 
+   bg[1] = 'https://wx4.sinaimg.cn/mw1024/edbc6d1agy1gksf9oiusvj20ub0u0kjr.jpg'
+   index = Math.floor(Math.random() * bg.length);
+   	//通过打印方式创建body的起始节点，因为伪元素必须包含在body节点之外，将js函数放置在此才不会报错
+   document.write("<BODY BACKGROUND="+bg[index]+">");
+	//将所随机背景写入伪元素
+   var sty=document.createElement('style');
+   sty.innerText="body,.box1::before {background: url("+bg[index]+")";
+   document.body.appendChild(sty);
+</script>
+
+ <style type="text/css">
+
+ body,.box1:before {
+	background-size: 600px auto;
+	background-position: center 3%;
+	background-repeat: no-repeat;
+	background-attachment: local;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	position: relative;
+	font-family: "PingFang SC","Roboto";
+}
+
+.box1 {
+	width: 400px;
+	height: 400px;
+	text-align: left;
+	margin: 10px auto;
+	margin-top: 3%;
+	color: #F5F5F5;
+	font-size: 15px;
+	transition: all 0.3s ease-out;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+	text-shadow: 2px 1px 2px rgb(0, 0, 0,1);
+	transform-style: preserve-3d;
+	perspective: 500px;
+	-webkit-perspective: 500px;
+}
+
+.box1:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	filter: blur(6px);
+	z-index: -2;
+	margin: 0.5%;
+}
+
+.yan:hover {
+	transform: translate(-1px, -1px);
+}
+
+.box1:hover {
+	transform: translate(-1px, -1px);
+}
+
+.front {
+	padding-top: 6%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	line-height: 20px;
+	-webkit-line-height: 20px;
+	white-space: nowrap;
+	position: absolute;
+	top: 0;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	margin-top: 1px;
+}
+
+.back {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	padding-right: 15%;
+	white-space: nowrap;
+	color: #F5F5F5;
+	position: absolute;
+	top: 0;
+	transform: rotateY(180deg);
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	margin-top: 3%;
+}
+
+button {
+	width: 75px;
+	height: 35px;
+	position: relative;
+	margin: 5px auto;
+	left: 56%;
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	text-shadow: 2px 2px 2px rgb(0, 0, 0,1);
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #F5F5F5;
+	padding: 5px;
+	text-align: center;
+	transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+button:active {
+	box-shadow: 0 6px rgb(0, 0, 0);
+	transform: translateY(2px);
+	-webkit-transform: translateY(2px);
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+}
+
+button:active:after {
+	padding: 0;
+	margin: 0 auto;
+	opacity: 1;
+	transition: 0s;
+}
+
+button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.3), 0 17px 50px 0 rgba(0,0,0,0.3);
+}
+
+.yan {
+	line-height: 10px;
+	padding: 2px;
+	width: 395px;
+	text-align: center;
+	margin: 2px auto;
+	font-size: 13px;
+	transition: all 0.3s ease-out;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	background-image: linear-gradient( 135deg, #97ABFF 10%, #123597 100%);
+	text-shadow: 2px 1px 2px rgb(0, 0, 0,1);
+	color: rgb(255, 255, 255);
+}
+
+.box2 {
+	width: 400px;
+	margin:auto;
+	margin-top: 4.5%;
+}
+
+@media screen and (max-width: 550px) {
+
+	button {
+		top: 105%;
+		left: 75%;
+	}
+}
+</style>
+
+<head>
+<body onload="yan()">	
+<div  class="box1">
+<div class="front">
+<h1>你好</h1>
+<h4>我是：间奏</h4>
+<p>37%的摄影，42%的游戏，22%的文学，组成：我</p>
+<p>该页面使用的主题色：克莱因蓝 </p>
+</br>
+<p><a href="https://jianzou.art/" target="_blank"><span style="color:#F5F5F5;">点击此处回到我的主页</span></a></p>
+<p><a href="https://jianzou.art/2021/aboutMySite/" target="_blank"><span style="color:#F5F5F5;">点击此处查看关于该博客的详情</span></a></p>
+ </div>
+
+ <div class="back">
+	<h4>Since 2021 <a href="http://lw0591.com/" target="_blank"><span style="color:#F5F5F5;"> The One Entertainment</span></a></h3> 
+	</p>系统策划：负责模拟经营类游戏核心系统设计</p>
+	<h4>2019 - 2021 <a href="http://www.zhuque.me/" target="_blank"><span style="color:#F5F5F5;"> Zhuque Network</span></a></h3> 
+	</p>系统策划：负责A-RTS类游戏核心系统设计</p>
+	</div>
+</div>
+<button id="btn">
+	<i class="fa fa-chevron-right fa-lg" onClick="overturn(),yan()"></i>
+</button>
+<div class="yan">
+	<p class="hitokoto"><i class="fa fa-refresh fa-spin"></i><p>
+	<p class="from"><p></p>
+</div>
+<script>
+
+function overturn() {
+	if($(".box1").attr("style") == undefined){
+	$(".box1").css("transform","rotateY(180deg)");
+}
+
+else {
+	$(".box1").removeAttr("style");
+};
+}
+</script>
+
+<script>
+function yan() {
+	var hitokoto = document.querySelector('.hitokoto');
+    var from = document.querySelector('.from');
+    update();
+    function update() {
+        gethi = new XMLHttpRequest();
+        gethi.open("GET","https://v1.hitokoto.cn/?c=c&encode=json&max_length=20");
+        //这里选择类别，详见官方文档
+        gethi.send();
+        gethi.onreadystatechange = function () {
+            if (gethi.readyState===4 && gethi.status===200) {
+                var Hi = JSON.parse(gethi.responseText);
+                hitokoto.innerHTML = Hi.hitokoto;
+                from.innerHTML = Hi.from ; //可自定义输出格式
+}
+        }
+    }
+}
+</script>
+</body>
+</html>
