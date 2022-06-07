@@ -18,9 +18,9 @@ tags: photography
 
 
 
-## 关于我
+## [关于我](https://jianzou.art/about/)
 
-> [间奏 Shelton](https://weibo.com/534778991)：男的，自由摄影师，只会拍写真
+> [间奏 Shelton](https://weibo.com/534778991)：男的，非自由摄影师，只会拍写真
 >
 > Add.：**福建福州**，可在福建省内拍摄，**视情况外省旅拍**
 >
@@ -33,6 +33,7 @@ tags: photography
 > | [FUJIFILM富士 X-S10](https://fujifilm-x.com/zh-cn/products/cameras/x-s10/) |
 > | [FUJINON XF35mm F1.4 R](https://fujifilm-x.com/zh-cn/products/lenses/xf35mmf14-r/) |
 > | [SIGMA 16mm F1.4 DC DN  ](http://www.sigma-photo.com.cn/cs/lenses/cas/product/contemporary/c_16_14/) |
+> | [Godox  V350F](https://www.godox.com.cn/product-d/V350.html) |
 
 ------
 
@@ -44,11 +45,11 @@ tags: photography
 >
 > 咨询
 >
-> 阅读 <font color="lightpurple">**免责声明（预约）**</font>
+> 阅读 <font color="lightpurple">**📄「免责声明（预约）」点击查看：**</font>[https://jianzou.art/2022/disclaimer]( https://jianzou.art/2022/disclaimer/)
 >
 > 查看 <font color="seagreen">**🧾「拍摄价目」 点击查看：**</font>[https://jianzou.art/2022/price_list]( https://jianzou.art/2022/price_list)
 >
-> 支付定金并确认拍摄时间
+> 支付定金、沟通风格、确认拍摄时间
 >
 > 拍摄，拍摄完成后当天支付尾款
 >
@@ -64,9 +65,9 @@ tags: photography
 >
 > 咨询
 >
-> 阅读 <font color="crismon">**免责声明（合作）**</font>
+> 阅读 <font color="crismon">**📃「免责声明（合作）」点击查看：**</font>[https://jianzou.art/2022/cooperation]( https://jianzou.art/2022/cooperation/)
 >
-> 沟通合作形式（包括但不限于：写真创作、SKU拍摄、服装look拍摄、服装寄&送拍等）
+> 沟通合作形式（包括但不限于：写真创作、SKU拍摄、服装LOOK拍摄等）、确认拍摄时间
 >
 > 拍摄
 >
@@ -75,12 +76,6 @@ tags: photography
 ------
 
 
-
-## 免责声明
-
-> <font color="lightpurple">**📄「免责声明（预约）」点击查看：**</font>[https://jianzou.art/2022/disclaimer]( https://jianzou.art/2022/disclaimer/)
->
-> <font color="crismon">**📃「免责声明（合作）」点击查看：**</font>[https://jianzou.art/2022/cooperation]( https://jianzou.art/2022/cooperation/)
 
 ###### 注意：
 
