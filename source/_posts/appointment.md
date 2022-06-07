@@ -8,6 +8,8 @@ tags: photography
 
 如有机会与您合作 ，我会竭尽全力完成每一部艺术作品。
 
+## Contact Me
+
 <font color="red">**Gallery**</font>：[间奏 • 小红书 / RED (xiaohongshu.com)](https://www.xiaohongshu.com/user/profile/5cde55980000000010029557?xhsshare=CopyLink&appuid=5cde55980000000010029557&apptime=1647576045)
 
 <font color="green">**Wechat**</font>：jianzou1
@@ -18,9 +20,9 @@ tags: photography
 
 
 
-## [关于我](https://jianzou.art/about/)
+## 关于我
 
-> [间奏 Shelton](https://weibo.com/534778991)：男的，非自由摄影师，只会拍写真
+> [间奏 Shelton](https://jianzou.art/about/)：男的，非自由摄影师，只会拍写真
 >
 > Add.：**福建福州**，可在福建省内拍摄，**视情况外省旅拍**
 >
