@@ -32,9 +32,14 @@ tags: photography
 >
 > |                                                              |
 > | ------------------------------------------------------------ |
+> | 中画幅系统：                                                 |
+> | [FUJIFILM富士 GFX 50R](https://fujifilm-x.com/zh-cn/products/cameras/gfx-50r/) |
+> | [TAMRON SP 35mm F/1.8 Di VC USD](https://www.tamron.com.cn/cameralens/products/f012/index.shtml#/35mm-F18) |
+> | 半画幅系统：                                                 |
 > | [FUJIFILM富士 X-S10](https://fujifilm-x.com/zh-cn/products/cameras/x-s10/) |
 > | [FUJINON XF35mm F1.4 R](https://fujifilm-x.com/zh-cn/products/lenses/xf35mmf14-r/) |
 > | [SIGMA 16mm F1.4 DC DN  ](http://www.sigma-photo.com.cn/cs/lenses/cas/product/contemporary/c_16_14/) |
+> | 闪光灯：                                                     |
 > | [Godox  V350F](https://www.godox.com.cn/product-d/V350.html) |
 
 ------
@@ -55,7 +60,7 @@ tags: photography
 >
 > 拍摄，拍摄完成后当天支付尾款
 >
-> 等待成片
+> 等待成片[TAMRON SP 35mm F/1.8 Di VC USD](https://www.tamron.com.cn/cameralens/products/f012/index.shtml#/35mm-F18)
 
 ------
 
