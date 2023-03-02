@@ -11,13 +11,9 @@ author: jianzou
 language: zh-CN
 timezone: ''
 
-# 自动生成sitemap
-baidusitemap:
-  path: baidusitemap.xml
-
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://jianzou.art/
+url: https://www.jianzou.art/
 permalink: :year/:title/
 permalink_defaults:
 pretty_urls:
