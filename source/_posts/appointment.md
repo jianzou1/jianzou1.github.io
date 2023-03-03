@@ -35,19 +35,14 @@ tags: photography
 
 ## 预约流程
 
-> 如果您是“顾客”，请阅读以下流程
+> 如果您是**“顾客”**，请阅读以下流程
 >
-> 咨询
->
-> 阅读 <font color="lightpurple">**📄「免责声明（预约）」点击查看：**</font>[https://jianzou.art/2022/disclaimer]( https://jianzou.art/2022/disclaimer/)
->
-> 查看 <font color="seagreen">**🧾「拍摄价目」 点击查看：**</font>[https://jianzou.art/2022/price_list]( https://jianzou.art/2022/price_list)
->
-> 支付定金、沟通风格、确认拍摄时间
->
-> 拍摄，拍摄完成后当天支付尾款
->
-> 等待成片
+> 1. 咨询我们，告知您的需求和想法。
+>2. 阅读并同意我们的 <font color="lightpurple">**📄「免责声明（预约）」点击查看：**</font>[https://jianzou.art/2022/disclaimer](https://jianzou.art/2022/disclaimer/)。
+> 3. 查看我们的 <font color="seagreen">**🧾「拍摄价目」 点击查看：**</font>https://jianzou.art/2022/price_list，选择适合您需求的方案。
+>4. 支付定金，沟通拍摄风格和确认拍摄时间。
+> 5. 拍摄完成后支付尾款。
+>6. 等待我们完成后期制作并交付成片。
 
 ------
 
@@ -57,15 +52,11 @@ tags: photography
 
 > 如果您是“模特”或是其他“异业合作”的同学，请阅读以下流程
 >
-> 咨询
->
-> 阅读 <font color="crismon">**📃「免责声明（合作）」点击查看：**</font>[https://jianzou.art/2022/cooperation]( https://jianzou.art/2022/cooperation/)
->
-> 沟通合作形式（包括但不限于：写真创作、SKU拍摄、服装LOOK拍摄等）、确认拍摄时间
->
-> 拍摄
->
-> 等待成片
+> 1. 咨询我们，告知您的需求和想法。
+>2. 阅读并同意我们的 <font color="crimson">**📃「免责声明（合作）」点击查看：**</font>[https://jianzou.art/2022/cooperation](https://jianzou.art/2022/cooperation/)。
+> 3. 沟通合作形式（包括但不限于：写真创作、SKU拍摄、服装LOOK拍摄等），并确认拍摄时间。
+>4. 进行拍摄。
+> 5. 等待我们完成后期制作并交付成片。
 
 ------
 
@@ -74,17 +65,3 @@ tags: photography
 ###### 注意：
 
 > 如您已支付拍摄所需要的定金，则默认同意免责声明中的所有条例
-
-###### 使用以下设备进行拍摄：
-
-> |                                                              |
-> | ------------------------------------------------------------ |
-> | 中画幅系统：                                                 |
-> | [FUJIFILM富士 GFX 50R](https://fujifilm-x.com/zh-cn/products/cameras/gfx-50r/) |
-> | [TAMRON SP 35mm F/1.8 Di VC USD](https://www.tamron.com.cn/cameralens/products/f012/index.shtml#/35mm-F18) |
-> | 半画幅系统：                                                 |
-> | [FUJIFILM富士 X-S10](https://fujifilm-x.com/zh-cn/products/cameras/x-s10/) |
-> | [FUJINON XF35mm F1.4 R](https://fujifilm-x.com/zh-cn/products/lenses/xf35mmf14-r/) |
-> | [SIGMA 16mm F1.4 DC DN  ](http://www.sigma-photo.com.cn/cs/lenses/cas/product/contemporary/c_16_14/) |
-> | 闪光灯：                                                     |
-> | [Godox  V350F](https://www.godox.com.cn/product-d/V350.html) |
