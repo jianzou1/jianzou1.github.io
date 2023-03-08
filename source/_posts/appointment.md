@@ -39,7 +39,7 @@ tags: photography
 >
 > 1. 咨询我们，告知您的需求和想法。
 >2. 阅读并同意我们的 <font color="lightpurple">**📄「免责声明（预约）」点击查看：**</font>[https://jianzou.art/2022/disclaimer](https://jianzou.art/2022/disclaimer/)。
-> 3. 查看我们的 <font color="seagreen">**🧾「拍摄价目」 点击查看：**</font>https://jianzou.art/2022/price_list，选择适合您需求的方案。
+> 3. 查看我们的 <font color="seagreen">**🧾「拍摄价目」 点击查看：**</font>https://jianzou.art/2022/price_list 选择适合您需求的方案。
 >4. 支付定金，沟通拍摄风格和确认拍摄时间。
 > 5. 拍摄完成后支付尾款。
 >6. 等待我们完成后期制作并交付成片。
