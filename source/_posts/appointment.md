@@ -1,13 +1,14 @@
 ---
 title: 预约须知
-date: 2022-2-25 10:21:17
+date: 2023-5-04 10:21:17
 tags: photography
 ---
 
-感谢您喜欢我的写真，并有意向与我预约，我的每一部写真是独一无二的 ；
-    
+<img src="https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/large/a01bc3fbly1hdmfeqg12wj22bc0zhe81.jpg" alt="pic"/>
 
-如有机会与您合作 ，我会竭尽全力完成每一部艺术作品。
+### <b style="background-color:skyblue;color:white;">感谢您喜欢我的写真，并有意向与我预约，我的每一部写真是独一无二的 ；</b>
+
+### <b style="background-color:skyblue;color:white;">如有机会与您合作 ，我会竭尽全力完成每一部艺术作品。</b>
 
 ------
 
@@ -27,12 +28,11 @@ tags: photography
 
 ## 关于我
 
-> [间奏 Shelton](https://jianzou.art/about/)：男的，非自由摄影师，只会拍写真
+> [间奏 ](https://jianzou.art/about/)：男的，非自由摄影师，只会拍写真
 >
 > 地址：**福建福州**，可在福建省内拍摄，**视情况外省旅拍**
 >
 > 影棚：[Seed造物所](https://j.map.baidu.com/71/QMLc)
->
 
 ------
 
@@ -40,11 +40,11 @@ tags: photography
 
 ## 预约流程
 
-> 如果您是**“顾客”**，请阅读以下流程：
->
+如果您是**“顾客”**，请阅读以下流程：
+
 > 
 >
-> 1.咨询我们，告知您的需求和想法。
+> 1.咨询我们，告知您的需求和想法。 
 >
 > 
 >
@@ -72,8 +72,8 @@ tags: photography
 
 ## 模特与合作
 
-> 如果您是“模特”或是其他“异业合作”的同学，请阅读以下流程
->
+如果您是“模特”或是其他“异业合作”的同学，请阅读以下流程
+
 > 1.咨询我们，告知您的需求和想法。
 >
 > 
@@ -96,6 +96,6 @@ tags: photography
 
 
 
-###### 注意：
+##### 注意：
 
 > 如您已支付拍摄所需要的定金，则视为默认同意免责声明中的所有条例。
