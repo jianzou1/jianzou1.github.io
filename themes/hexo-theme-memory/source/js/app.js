@@ -69,8 +69,8 @@
     }
 
     setTimeout(function () {
-      $('#loading-bar-wrapper').fadeOut(1500);
-    },1500);
+      $('#loading-bar-wrapper').fadeOut(1300);
+    },1300);
   });
 
 })(jQuery);

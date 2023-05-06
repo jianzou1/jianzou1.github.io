@@ -6,9 +6,9 @@ tags: photography
 
 <img src="https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/large/a01bc3fbly1hdmfeqg12wj22bc0zhe81.jpg" alt="pic"/>
 
-### <b style="background-color:skyblue;color:white;">感谢您喜欢我的写真，并有意向与我预约，我的每一部写真是独一无二的 ；</b>
+#### <b style="background-color:#BB2649;color:white;">感谢您喜欢我的写真，并有意向与我预约，我的每一部写真是独一无二的 ；</b>
 
-### <b style="background-color:skyblue;color:white;">如有机会与您合作 ，我会竭尽全力完成每一部艺术作品。</b>
+#### <b style="background-color:#BB2649;color:white;">如有机会与您合作 ，我会竭尽全力完成每一部艺术作品。</b>
 
 ------
 
@@ -16,11 +16,11 @@ tags: photography
 
 ## 联系我
 
-<font color="red">**Gallery**</font>：[间奏 • 小红书 / RED (xiaohongshu.com)](https://www.xiaohongshu.com/user/profile/5cde55980000000010029557?xhsshare=CopyLink&appuid=5cde55980000000010029557&apptime=1647576045)
+Gallery：[间奏 • 小红书 / RED (xiaohongshu.com)](https://www.xiaohongshu.com/user/profile/5cde55980000000010029557?xhsshare=CopyLink&appuid=5cde55980000000010029557&apptime=1647576045)
 
-<font color="green">**Wechat**</font>：jianzou1
+Wechat：jianzou1
 
-**Mail**：jianzou1@qq.com
+Mail：jianzou1@qq.com
 
 ------
 
@@ -30,7 +30,7 @@ tags: photography
 
 > [间奏 ](https://jianzou.art/about/)：男的，非自由摄影师，只会拍写真
 >
-> 地址：**福建福州**，可在福建省内拍摄，**视情况外省旅拍**
+> 地址：**福建福州**，可在福建省内拍摄，视情况外省旅拍
 >
 > 影棚：[Seed造物所](https://j.map.baidu.com/71/QMLc)
 
@@ -48,11 +48,11 @@ tags: photography
 >
 > 
 >
-> 2.阅读并同意我们的 <font color="lightpurple">**📄「免责声明（预约）」：**</font>[https://jianzou.art/2022/disclaimer](https://jianzou.art/2022/disclaimer/)。
+> 2.阅读并同意我们的 「免责声明（预约）」：[https://jianzou.art/2022/disclaimer](https://jianzou.art/2022/disclaimer/)。
 >
 > 
 >
-> 3.查看我们的 <font color="seagreen">**🧾「拍摄价目」：**</font>https://jianzou.art/2022/price_list 选择适合您需求的方案。
+> 3.查看我们的 「拍摄价目」：https://jianzou.art/2022/price_list 选择适合您需求的方案。
 >
 > 
 >
@@ -78,7 +78,7 @@ tags: photography
 >
 > 
 >
-> 2.阅读并同意我们的 <font color="crimson">**📃「免责声明（合作）」：**</font>[https://jianzou.art/2022/cooperation](https://jianzou.art/2022/cooperation/)。
+> 2.阅读并同意我们的 「免责声明（合作）」[https://jianzou.art/2022/cooperation](https://jianzou.art/2022/cooperation/)。
 >
 > 
 >
