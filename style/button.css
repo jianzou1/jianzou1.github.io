@@ -12,7 +12,7 @@
       color: #90acc9; } }
   .dark-btn:hover {
     color: #282828;
-    background-color: #ff9800; }
+    background-color: #BB2649; }
     @media (prefers-color-scheme: dark) {
       .dark-btn:hover {
         color: #0d131a;

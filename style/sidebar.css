@@ -49,7 +49,7 @@
       font-size: 12px; }
       .site-sidebar .sidebar-switch .dark-btn.active {
         color: #282828;
-        background-color: #ff9800; }
+        background-color: #BB2649; }
         @media (prefers-color-scheme: dark) {
           .site-sidebar .sidebar-switch .dark-btn.active {
             background-color: #009688; } }
@@ -116,7 +116,7 @@
       padding: 5px 15px;
       font-size: 12px; }
       .site-bio .about-me .dark-btn:hover {
-        background-color: #ff9800; }
+        background-color: #BB2649; }
         @media (prefers-color-scheme: dark) {
           .site-bio .about-me .dark-btn:hover {
             background-color: #009688; } }
@@ -151,7 +151,7 @@
       color: white;
       font-size: 14px; }
       .site-toc > ol li a:hover {
-        color: #ff9800; }
+        color: #BB2649; }
         @media (prefers-color-scheme: dark) {
           .site-toc > ol li a:hover {
             color: #009688; } }

@@ -18,7 +18,7 @@
     transform: translate3d(0px, 0px, 0px);
     opacity: 1; }
   #footer .codename {
-    color: #cc7a00; }
+    color: #911d38; }
     @media (prefers-color-scheme: dark) {
       #footer .codename {
         color: #007d71; } }
@@ -36,8 +36,8 @@
       #footer a {
         color: #90acc9; } }
     #footer a:hover {
-      color: #f08f00;
-      background-color: rgba(255, 152, 0, 0.1); }
+      color: #ae2344;
+      background-color: rgba(187, 38, 73, 0.1); }
       @media (prefers-color-scheme: dark) {
         #footer a:hover {
           color: #00877a;

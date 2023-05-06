@@ -13,7 +13,7 @@
         #archive-page .archive .archive-item a {
           color: #90acc9; } }
       #archive-page .archive .archive-item a:hover {
-        border-left-color: #ffad33;
+        border-left-color: #d73d61;
         background-color: #f1f1f3; }
         @media (prefers-color-scheme: dark) {
           #archive-page .archive .archive-item a:hover {
@@ -27,7 +27,7 @@
     padding-right: 10px; }
   #archive-page .archive .archive-post .title {
     font-size: 14px;
-    color: #ff9800; }
+    color: #BB2649; }
     @media (prefers-color-scheme: dark) {
       #archive-page .archive .archive-post .title {
         color: #009688; } }

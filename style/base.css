@@ -36,11 +36,11 @@ body {
     transform: translate3d(0, 0, 0); }
 
 ::-moz-selection {
-  background: #ffb74d;
+  background: #dc5272;
   color: #0e0e0e; }
 
 ::selection {
-  background: #ffb74d;
+  background: #dc5272;
   color: #0e0e0e; }
 
 h1, h2, h3,

@@ -430,11 +430,11 @@ body {
     transform: translate3d(0, 0, 0); }
 
 ::-moz-selection {
-  background: #ffb74d;
+  background: #dc5272;
   color: #0e0e0e; }
 
 ::selection {
-  background: #ffb74d;
+  background: #dc5272;
   color: #0e0e0e; }
 
 h1, h2, h3,
@@ -590,7 +590,7 @@ pre {
       color: #90acc9; } }
   .dark-btn:hover {
     color: #282828;
-    background-color: #ff9800; }
+    background-color: #BB2649; }
     @media (prefers-color-scheme: dark) {
       .dark-btn:hover {
         color: #0d131a;
@@ -616,7 +616,7 @@ pre {
   position: relative;
   width: 0;
   height: 2px;
-  background-color: green;
+  background-color: #c3284c;
   transition: all 1.2s ease-in-out; }
   @media (prefers-color-scheme: dark) {
     #loading-bar {
@@ -727,7 +727,7 @@ pre {
     transform: translate3d(0px, 0px, 0px);
     opacity: 1; }
   #footer .codename {
-    color: #cc7a00; }
+    color: #911d38; }
     @media (prefers-color-scheme: dark) {
       #footer .codename {
         color: #007d71; } }
@@ -745,8 +745,8 @@ pre {
       #footer a {
         color: #90acc9; } }
     #footer a:hover {
-      color: #f08f00;
-      background-color: rgba(255, 152, 0, 0.1); }
+      color: #ae2344;
+      background-color: rgba(187, 38, 73, 0.1); }
       @media (prefers-color-scheme: dark) {
         #footer a:hover {
           color: #00877a;
@@ -866,7 +866,7 @@ pre {
       font-size: 12px; }
       .site-sidebar .sidebar-switch .dark-btn.active {
         color: #282828;
-        background-color: #ff9800; }
+        background-color: #BB2649; }
         @media (prefers-color-scheme: dark) {
           .site-sidebar .sidebar-switch .dark-btn.active {
             background-color: #009688; } }
@@ -933,7 +933,7 @@ pre {
       padding: 5px 15px;
       font-size: 12px; }
       .site-bio .about-me .dark-btn:hover {
-        background-color: #ff9800; }
+        background-color: #BB2649; }
         @media (prefers-color-scheme: dark) {
           .site-bio .about-me .dark-btn:hover {
             background-color: #009688; } }
@@ -968,7 +968,7 @@ pre {
       color: white;
       font-size: 14px; }
       .site-toc > ol li a:hover {
-        color: #ff9800; }
+        color: #BB2649; }
         @media (prefers-color-scheme: dark) {
           .site-toc > ol li a:hover {
             color: #009688; } }
@@ -989,7 +989,7 @@ pre {
       padding: 0 20px; } }
   .content #pixiv-vol,
   .content #pixiv-artist-count {
-    color: #ff9800;
+    color: #BB2649;
     font-weight: bolder; }
     @media (prefers-color-scheme: dark) {
       .content #pixiv-vol,
@@ -1033,20 +1033,20 @@ pre {
     margin: 20px 0;
     padding-left: 30px; }
   .content a {
-    color: #f59200; }
+    color: #b32446; }
     @media (prefers-color-scheme: dark) {
       .content a {
         color: #008c7f; } }
     .content a:hover {
-      color: #eb8c00;
-      background: rgba(255, 152, 0, 0.1); }
+      color: #aa2342;
+      background: rgba(187, 38, 73, 0.1); }
       @media (prefers-color-scheme: dark) {
         .content a:hover {
           color: #008276;
           background: rgba(0, 150, 136, 0.1); } }
     .content a:active {
       color: #ffffff;
-      background: rgba(255, 152, 0, 0.6); }
+      background: rgba(187, 38, 73, 0.6); }
       @media (prefers-color-scheme: dark) {
         .content a:active {
           background: rgba(0, 150, 136, 0.6); } }
@@ -1095,7 +1095,7 @@ pre {
       margin: 0; }
   .content code {
     font-family: Consolas, Monaco, Menlo, monospace, "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
-    color: #f59200;
+    color: #b32446;
     padding: 3px 5px;
     margin: 0 2px;
     border-radius: 2px;
@@ -1285,7 +1285,7 @@ pre {
           color: #00a596; }
           @media (prefers-color-scheme: dark) {
             #main .post > .title a:hover {
-              color: #ffa21a; } }
+              color: #d02a51; } }
     #main .post > time {
       display: block;
       text-align: center;
@@ -1335,7 +1335,7 @@ pre {
         #archive-page .archive .archive-item a {
           color: #90acc9; } }
       #archive-page .archive .archive-item a:hover {
-        border-left-color: #ffad33;
+        border-left-color: #d73d61;
         background-color: #f1f1f3; }
         @media (prefers-color-scheme: dark) {
           #archive-page .archive .archive-item a:hover {
@@ -1349,7 +1349,7 @@ pre {
     padding-right: 10px; }
   #archive-page .archive .archive-post .title {
     font-size: 14px;
-    color: #ff9800; }
+    color: #BB2649; }
     @media (prefers-color-scheme: dark) {
       #archive-page .archive .archive-post .title {
         color: #009688; } }

@@ -86,7 +86,7 @@
           color: #00a596; }
           @media (prefers-color-scheme: dark) {
             #main .post > .title a:hover {
-              color: #ffa21a; } }
+              color: #d02a51; } }
     #main .post > time {
       display: block;
       text-align: center;
