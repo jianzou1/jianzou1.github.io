@@ -11,7 +11,7 @@
   width: 0;
   height: 2px;
   background-color: #ff9c0a;
-  transition: all 0.5s ease; }
+  transition: all 1.2s ease-in-out; }
   @media (prefers-color-scheme: dark) {
     #loading-bar {
       background-color: #00a091; } }
