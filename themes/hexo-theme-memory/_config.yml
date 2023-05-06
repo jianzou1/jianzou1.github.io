@@ -1,5 +1,5 @@
 # Meta
-keywords: hexo,theme,jianzou
+keywords: jianzou
 site_desc: 前往小島
 
 # Navigation
@@ -51,7 +51,7 @@ social:
 - slug: email
   url:
 - slug: github
-  url: https://github.com/jianzou1/jianzou1.github.io
+  url: 
 - slug: twitter
   url:
 - slug: rss
@@ -71,6 +71,6 @@ social:
 - slug: pinterest
   url:
 - slug: instagram
-  url:
+  url: https://www.instagram.com/jianzou1/
 - slug: behance
   url:
