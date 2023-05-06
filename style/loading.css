@@ -10,7 +10,7 @@
   position: relative;
   width: 0;
   height: 2px;
-  background-color: #ff9c0a;
+  background-color: #ffcad3;
   transition: all 1.2s ease-in-out; }
   @media (prefers-color-scheme: dark) {
     #loading-bar {
