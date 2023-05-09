@@ -20,8 +20,6 @@ Gallery：[间奏 • 小红书 / RED (xiaohongshu.com)](https://www.xiaohongshu
 
 Wechat：jianzou1
 
-Mail：jianzou1@qq.com
-
 ------
 
 
@@ -30,9 +28,8 @@ Mail：jianzou1@qq.com
 
 > [间奏 ](https://jianzou.art/about/)：男的，非自由摄影师，只会拍写真
 >
-> 地址：**福建福州**，可在福建省内拍摄，视情况外省旅拍
+> 地址：福州，可在福建省内拍摄，视情况外省旅拍
 >
-> 影棚：[Seed造物所](https://j.map.baidu.com/71/QMLc)
 
 ------
 
@@ -44,27 +41,27 @@ Mail：jianzou1@qq.com
 
 > 
 >
-> 1.咨询我们，告知您的需求和想法。 
+> 1：咨询我们，告知您的需求和想法。 
 >
 > 
 >
-> 2.阅读并同意我们的 「免责声明（预约）」：[https://jianzou.art/2022/disclaimer](https://jianzou.art/2022/disclaimer/)。
+> 2：阅读并同意 「免责声明（预约）」：[https://jianzou.art/2022/disclaimer](https://jianzou.art/2022/disclaimer/)。
 >
 > 
 >
-> 3.查看我们的 「拍摄价目」：https://jianzou.art/2022/price_list 选择适合您需求的方案。
+> 3：查看 「拍摄价目」：https://jianzou.art/2022/price_list ，选择适合需求的方案。
 >
 > 
 >
-> 4.支付定金，沟通拍摄风格和确认拍摄时间。
+> 4：支付定金，沟通拍摄风格和确认拍摄时间。
 >
 > 
 >
-> 5.拍摄完成后支付尾款。
+> 5：拍摄完成后支付尾款。
 >
 > 
 >
-> 6.等待我们完成后期制作并交付成片。
+> 6：等待我们完成后期制作并交付成片。
 
 ------
 
@@ -74,23 +71,23 @@ Mail：jianzou1@qq.com
 
 如果您是“模特”或是其他“异业合作”的同学，请阅读以下流程
 
-> 1.咨询我们，告知您的需求和想法。
+> 1：咨询我们，告知您的需求和想法。
 >
 > 
 >
-> 2.阅读并同意我们的 「免责声明（合作）」[https://jianzou.art/2022/cooperation](https://jianzou.art/2022/cooperation/)。
+> 2：阅读并同意 「免责声明（合作）」[https://jianzou.art/2022/cooperation](https://jianzou.art/2022/cooperation/)。
 >
 > 
 >
-> 3.沟通合作形式（包括但不限于：写真创作、服装look、广告拍摄等），并确认拍摄时间。
+> 3：沟通合作形式（包括但不限于：写真创作、服装look、广告拍摄等），并确认拍摄时间。
 >
 > 
 >
-> 4.进行拍摄。
+> 4：进行拍摄。
 >
 > 
 >
-> 5.等待我们完成后期制作并交付成片。
+> 5：等待我们完成后期制作并交付成片。
 
 ------
 
