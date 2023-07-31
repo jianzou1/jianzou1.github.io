@@ -4,8 +4,6 @@ date: 2023-5-04 10:21:17
 tags: photography
 ---
 
-<img src="https://image.baidu.com/search/down?url=https://wx2.sinaimg.cn/large/a01bc3fbly1hdmfeqg12wj22bc0zhe81.jpg" alt="pic"/>
-
 #### <b style="background-color:#BB2649;color:white;">感谢您喜欢我的写真，并有意向与我预约，我的每一部写真是独一无二的 ；</b>
 
 #### <b style="background-color:#BB2649;color:white;">如有机会与您合作 ，我会竭尽全力完成每一部艺术作品。</b>
