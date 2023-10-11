@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://jianzou.art/2020/gd_sample_ingame_party_point/</loc>
+    <lastmod>2023-10-11</lastmod>
+  </url>
+  <url>
     <loc>https://jianzou.art/2022/price_list/</loc>
-    <lastmod>2023-08-22</lastmod>
+    <lastmod>2023-10-11</lastmod>
   </url>
   <url>
     <loc>https://jianzou.art/2023/appointment/</loc>
@@ -29,11 +33,11 @@
     <lastmod>2021-09-14</lastmod>
   </url>
   <url>
-    <loc>https://jianzou.art/2021/hello-world/</loc>
+    <loc>https://jianzou.art/2021/hello_world/</loc>
     <lastmod>2021-07-02</lastmod>
   </url>
   <url>
-    <loc>https://jianzou.art/2021/aboutMySite/</loc>
+    <loc>https://jianzou.art/2021/about_site/</loc>
     <lastmod>2021-07-02</lastmod>
   </url>
 </urlset> 
