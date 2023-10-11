@@ -64,6 +64,7 @@
   ul,
   ol {
     list-style: circle;
+    list-style-type: square;
     margin: 20px 0;
     padding-left: 30px;
   }
@@ -100,7 +101,7 @@
 
     &::before {
       position: absolute;
-      left: -20px;
+      left: -25px;
       top: 0;
       content: "#";
       color: $material-green;
@@ -129,7 +130,7 @@
     }
   }
   pre {
-    display: block;
+    display: table;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     font-family: $code-font-family;
@@ -138,7 +139,6 @@
     padding: 10px 15px;
     white-space: pre;
     overflow: auto;
-
     code {
       color: $text-color;
       margin: 0;
@@ -146,6 +146,11 @@
       background-color: transparent;
       border: 0;
       white-space: inherit;
+      border-width: 0px;
+      padding: 8px;
+      border-style: dotted;
+      border-color: none;
+      background-color: none;
     }
     figure {
       margin: 0;
@@ -156,7 +161,7 @@
     color: darken($brand-color, 2%);
     padding: 3px 5px;
     margin: 0 2px;
-    border-radius: 2px;
+    border-radius: 12px;
     white-space: nowrap;
     font-size: 1em;
     background-color: lighten($background-color, 5%);
@@ -260,6 +265,28 @@
       line-height: 1.6em;
     }
   }
+table {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+}
+ th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+ td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
 }
 
 /* Tomorrow Theme */
