@@ -9,7 +9,7 @@ tags: game-design
 在这个页面中，您将看到我在各种不同项目中设计的各种模块功能的：
 
 - 系统案范例。
-- 项目录屏，包括灰盒阶段、功能实施阶段以及上线阶段的内容。
+- 项目录屏，包括灰盒阶段、功能研发阶段以及上线阶段的内容。
 
 ## 一、系统案范例
 
@@ -23,6 +23,7 @@ tags: game-design
 ### 1.2 战斗相关
 
 - [占领模式战场规则](https://jianzou.art/2020/gd_sample_ingame_capture/)
+- [枪械后坐力规则](https://jianzou.art/2020/gd_sample_ingame_recoil/)
 
 ### 1.3 角色相关
 
