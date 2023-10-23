@@ -24,7 +24,7 @@
 <meta property="og:image" content="https://fc.sinaimg.cn/large/00724HnBly1hitnyb374dj30pd0h7jte.jpg">
 <meta property="og:image" content="https://fc.sinaimg.cn/large/00724HnBly1hitmsa6pa5j30ks0l10v7.jpg">
 <meta property="article:published_time" content="2020-02-21T02:25:17.000Z">
-<meta property="article:modified_time" content="2023-10-13T07:22:45.020Z">
+<meta property="article:modified_time" content="2023-10-13T07:25:33.218Z">
 <meta property="article:author" content="间奏">
 <meta property="article:tag" content="game-design">
 <meta name="twitter:card" content="summary">
@@ -197,7 +197,7 @@
 <ul>
 <li>X轴表示后坐力表现时长，一般配置为枪械的射击间隔；Y轴为偏移量表现速度。</li>
 <li>图示，若图内枪械为“霰弹枪”的后坐力镜头表现，根据该曲线，则表现为：<ul>
-<li>射击后，枪械在0.05s内会迅速播放偏移量的95%，剩余5%部分在0.05s内表现完成。霰弹枪短时间快速抬高，滞空，进入回准曲线。</li>
+<li>射击后，枪械在0.05s内会迅速播放偏移量的95%，剩余5%部分在0.05s内表现完成。霰弹枪短时间快速抬高，滞空，进入回准表现。</li>
 </ul>
 </li>
 </ul>
@@ -226,7 +226,7 @@
 <li>新增回位运动表现：在每一把枪械预制中新增参数（同4.2 后坐力表现），用于控制每次回位准星偏移的运动曲线。</li>
 </ul>
 </li>
-<li>新增bool类型字段：isForceMoveBack<ul>
+<li>新增bool类型字段：<code>isForceMoveBack</code><ul>
 <li>TRUE= 强制回准。</li>
 <li>FALSE= 如果玩家通过滑屏激活了aimingCamera，则不进行回准。</li>
 </ul>

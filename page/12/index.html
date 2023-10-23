@@ -79,8 +79,8 @@
 
     
         <h2 class="title">
-            <a href="/2020/gd_sample_ingame_recoil/">
-                枪械后坐力规则
+            <a href="/2020/gd_sample_ingame_capture/">
+                占领模式战场规则
             </a>
         </h2>
     
@@ -97,147 +97,270 @@
 </tr>
 </thead>
 <tbody><tr>
-<td>2022年12月12日</td>
-<td>调用震屏控制相机前后与左右旋转</td>
-<td align="left">朱兴韬</td>
-</tr>
-<tr>
-<td>2022年12月6日</td>
-<td>新增准星强制回准与触发镜头移动跳出回准需求</td>
-<td align="left">朱兴韬</td>
-</tr>
-<tr>
-<td>2022年12月5日</td>
-<td>新增每1次射击后坐力镜头运动曲线，与准星回位镜头运动曲线需求</td>
-<td align="left">朱兴韬</td>
-</tr>
-<tr>
-<td>2022年11月28日</td>
-<td>修改系统案，更改后坐力实现方式</td>
-<td align="left">朱兴韬</td>
-</tr>
-<tr>
-<td>2022年11月25日</td>
+<td>2023年3月4日</td>
 <td>创建文档</td>
 <td align="left">朱兴韬</td>
 </tr>
+<tr>
+<td>2023年3月10日</td>
+<td>新增占领点HUD描述</td>
+<td align="left">朱兴韬</td>
+</tr>
+<tr>
+<td>2023年4月17日</td>
+<td>移除平局结算规则</td>
+<td align="left">朱兴韬</td>
+</tr>
 </tbody></table>
-<h2><span id="一-设计目的">一、设计目的</span></h2><p>新增枪械的后坐力机制，强化射击手感，增加枪械策略性与射击趣味性</p>
-<h2><span id="二-流程图">二、流程图</span></h2><p><img src="https://fc.sinaimg.cn/large/00724HnBly1hitnyb374dj30pd0h7jte.jpg" alt="后坐力计算机制流程图_221128_v2.0-16696246979671.png"></p>
-<h2><span id="三-概述">三、概述</span></h2><ul>
-<li>枪械现在在射击时，会附带后坐力，后坐力表现区别于现有的震屏功能。本文中将对后坐力的触发方式、触发表现进行规范与细化。</li>
+<h2><span id="一-设计目的">一、设计目的</span></h2><p>引入新的战场玩法，以增加游戏的多样性，提高竞技趣味，并促进游戏长期玩家留存。</p>
+<h2><span id="二-功能概述">二、功能概述</span></h2><p>占领模式的玩法规则规则、功能交互，明确定义占领模式的胜负规则以及玩家的体验流程。</p>
+<h2><span id="三-功能规则">三、功能规则</span></h2><h4><span id="31-占领模式玩法规则">3.1 占领模式玩法规则</span></h4><ul>
+<li>占领模式中，战场上散布着多个占领点，每个占领点每秒都会产生一定数量的胜利点数。胜利的关键在于，当任意一队的胜利点数首先达到设定值时，该队将获胜。游戏的核心目标是争夺这些占领点，需要不断争夺和保卫以保持领先地位。</li>
 </ul>
-<h2><span id="四-配置表">四、配置表</span></h2><h4><span id="41-新增字段">4.1 新增字段</span></h4><p>在枪械预制中新增以下配置</p>
+<h4><span id="32-占领点预制">3.2 占领点预制</span></h4><ul>
+<li><p>占领点将采用触发器（Trigger）的预制体，用于在客户端检测触发器范围内的队伍数量，从而实现占领交互。占领区域的大小将由触发器预制体的碰撞范围决定。</p>
+</li>
+<li><p>占领状态将分为3个状态，一旦变为已占领状态，将无法再次变回中立状态，只能更改占领点的归属方：</p>
+<ul>
+<li>中立状态（灰色）：初始状态，不产生胜利点数。</li>
+<li>我方状态（蓝色）：已占领，产生胜利点数，计入我方队伍。</li>
+<li>敌方状态（红色）：已占领，产生胜利点数，计入敌方队伍。</li>
+</ul>
+</li>
+<li><p>占领规则包括以下情况：</p>
+<ul>
+<li><p>中立状态下：</p>
+<ul>
+<li>场景1：当占领区域内只有1个队伍时，开始占领。占领时间应从触发器的<code>captureTime</code>字段读取（单位：毫秒）。占领时间结束后，占领点的归属将变为触发占领时间的队伍（不属于该队伍的占领点才会触发<code>captureTime</code>的计算）。</li>
+<li>在占领过程中，如果占领点内的队伍之一离开该区域，则该队伍的<code>captureTime</code>将逐渐重置为0。</li>
+<li>场景2：如果占领过程中，占领区域内有其他队伍进入，占领将暂停。占领时间会继续计算，但只有占领点内只有1个队伍时，占领时间才能继续计算。</li>
+<li>场景3：如果A队伍占领一个点，B队伍进入该区域并驱逐A队伍，需要等待已经计算的<code>captureTime</code>逐渐重置为0，才能再次触发<code>captureTime</code>。<ul>
+<li>如果在此过程中，A队伍重新进入占领区域，清零过程将暂停。此时，A队伍将B队伍的玩家驱逐出占领点，清零的<code>captureTime</code>会逐渐回满。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>已占领状态下：</p>
+<ul>
+<li>场景1：当占领区域内没有我方玩家，敌对玩家进入占领区域，开始占领。占领时间将从触发器的<code>captureTime</code>字段读取（以毫秒为单位）。占领时间结束后，占领点的归属将变为触发占领时间的队伍（不属于该队伍的占领点才会触发<code>captureTime</code>的计算）。</li>
+<li>场景2：占领过程中，占领区域内有其他队伍进入，占领将暂停。只有在占领点内只有敌对队伍时，占领时间才会继续计算。</li>
+<li>场景3：占领过程中，如果敌对队伍的玩家被驱逐出占领区域，已经计算的<code>captureTime</code>将逐渐重置为0。<ul>
+<li>如果在清零期间，敌对队伍重新进入占领区域，清零进程将暂停。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>占领点会根据占领预制体的<code>getPointPerSecond</code>字段，每秒为占领点的归属方增加胜利点数。每秒都会计算每支队伍拥有的占领点，从而决定胜利点数。</p>
+</li>
+<li><p>占领点的UI样式将包括以下元素：</p>
+<ul>
+<li>占领点名称：通过<code>name#string</code>字段配置，用于在UI中显示，只允许填写大写英文字母A-Z。</li>
+<li>占领点图标样式：在预制体内提供下拉选项，包括L/S/M，用于控制占领点图标的UI位置。</li>
+</ul>
+</li>
+</ul>
+<h4><span id="33-胜负与结算规则">3.3 胜负与结算规则</span></h4><p>触发结算条件：</p>
+<ol>
+<li>战场时间限制（<code>roundTime#float</code>）内，任何一方率先达到<code>occupyWinPoint#int</code>的胜利点数，即可获胜。<ul>
+<li>胜利方：达到胜利点数的一方将获胜。</li>
+<li>失败方：结算时拥有的胜利点数较少的一方将失败。</li>
+</ul>
+</li>
+<li>如果在战场的时间限制（<code>roundTime#float</code>）内，没有任何一方达到胜利点数，比赛将在时间结束后进行结算。<ul>
+<li>胜利方：在结算时拥有胜利点数更多的一方将获胜。</li>
+<li>失败方：在结算时拥有胜利点数较少的一方将失败。</li>
+</ul>
+</li>
+</ol>
+<h4><span id="34-占领模式配置">3.4 占领模式配置</span></h4><ul>
+<li><p>占领点预制将包括以下字段以支持功能实现：</p>
 <table>
 <thead>
 <tr>
-<th>字段</th>
+<th>字段名</th>
 <th>类型</th>
-<th align="left">内容</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>recoilGapTime</td>
+<td>captureTime</td>
 <td>int</td>
-<td align="left">停火间隔；配置毫秒</td>
+<td>占领时间（毫秒）</td>
 </tr>
 <tr>
-<td>recoilMoveBackTime</td>
+<td>getPointPerSecond</td>
 <td>int</td>
-<td align="left">回位时间；配置毫秒</td>
+<td>每秒获得的胜利点数</td>
 </tr>
 <tr>
-<td>isForceMoveBack</td>
-<td>bool</td>
-<td align="left">TRUE= 强制回准 <br>FALSE= 如果玩家通过滑屏激活了aimingCamera，则不进行回准</td>
+<td>pic</td>
+<td>string</td>
+<td>占领点图片路径（数组，每个状态有3张图）</td>
 </tr>
 </tbody></table>
-<h2><span id="四-功能规则">四、功能规则</span></h2><h4><span id="41-后坐力计算">4.1 后坐力计算</span></h4><ul>
-<li><p>后坐力信息读取：枪械预制中新增后坐力脚本。</p>
+</li>
+<li><p>客户端战局配置：</p>
 <ul>
-<li><p>读取脚本中配置后坐力信息，后坐力信息中枚举了在“连续射击”状态内，每1次射击的镜头偏移量。每1次连续射击的重新触发，都需要从后坐力信息的第1个条目进行重新读取。</p>
+<li>引入占领模式配置表：<code>capture_target_cfg</code>，用于配置占领模式的相关信息。</li>
+<li>以下是新增字段：</li>
+</ul>
 <table>
 <thead>
 <tr>
-<th>KEY（开火次数）</th>
-<th>X</th>
-<th>Y</th>
+<th align="left">字段名</th>
+<th>类型</th>
+<th>描述</th>
 <th>备注</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>3</td>
-<td>0.2</td>
-<td>0</td>
-<td>表示从第0枪~第3枪，每次射击镜头绕X轴移动0.2个单位。</td>
+<td align="left">occupyWinPoint</td>
+<td>int</td>
+<td>胜利点数</td>
+<td>新增字段</td>
 </tr>
 <tr>
-<td>10</td>
-<td>0.15</td>
-<td>0.2</td>
-<td>表示从第4枪~第10枪，每次射击镜头绕X轴移动0.5个单位，绕Y轴移动0.2个单位。</td>
+<td align="left">occupyPointFx</td>
+<td>string</td>
+<td>胜利点数增长特效，配置数组，大于等于该分数展示的特效</td>
+<td>新增字段</td>
 </tr>
 <tr>
-<td>18</td>
-<td>0</td>
-<td>-0.2</td>
-<td>表示从第11枪~第18枪，每次射击镜头绕Y轴移动-0.2个单位，18枪之后若无配置，则按照第18枪的配置信息执行偏移，直至子弹耗尽。</td>
+<td align="left">roundTime</td>
+<td>float</td>
+<td>比赛时长</td>
+<td>复用</td>
+</tr>
+<tr>
+<td align="left">noticeSelfTeamScoreHalf</td>
+<td>int</td>
+<td>通知-我方获胜进度已过半<br>我方拥有胜利点数大于等于occupyWinPoint/2时</td>
+<td>规则变更</td>
+</tr>
+<tr>
+<td align="left">noticeEnemyTeamSocreHalf</td>
+<td>int</td>
+<td>通知-敌方获胜进度已过半<br>对方拥有胜利点数大于等于occupyWinPoint/2时</td>
+<td>规则变更</td>
+</tr>
+<tr>
+<td align="left">noticeWinRemain</td>
+<td>int</td>
+<td>通知-再击败{0}名敌人即可获胜 <strong>–&gt;</strong> 通知-再获得{0}分数即可获胜</td>
+<td>规则变更</td>
+</tr>
+<tr>
+<td align="left">occupyWeaponDelTime</td>
+<td>int</td>
+<td>占领模式武器掉落消失时间</td>
+<td>新增字段</td>
+</tr>
+<tr>
+<td align="left">occupyResurgenceType</td>
+<td>int</td>
+<td>占领模式死亡后复活方式</td>
+<td>新增字段</td>
+</tr>
+<tr>
+<td align="left">occupyResurgenceTime</td>
+<td>int</td>
+<td>占领模式复活等待时间</td>
+<td>新增字段</td>
+</tr>
+<tr>
+<td align="left">occupyResurgenceBuff</td>
+<td>int</td>
+<td>占领模式复活时添加buffId</td>
+<td>新增字段</td>
 </tr>
 </tbody></table>
 </li>
-</ul>
-</li>
-<li><p>连续射击的失效</p>
+<li><p>战服与平台配置：</p>
 <ul>
-<li>当两次射击间隔<code>≥recoilGapTime</code>配置的时间，武器被视为停火，下次射击重新计算后坐力。</li>
+<li>新增<code>gameId=5000</code>，表示占领玩法规则</li>
+<li>新增<code>gameType=600</code>，表示占领游戏类型</li>
 </ul>
 </li>
 </ul>
-<h4><span id="42-后坐力表现">4.2 后坐力表现</span></h4><ul>
-<li><p>新增后坐力运动表现：枪械预制中新增后坐力曲线脚本，用于控制每次射击镜头偏移的运动曲线，调用Unity的Curve组件实现。</p>
-<p><img src="https://fc.sinaimg.cn/large/00724HnBly1hitmsa6pa5j30ks0l10v7.jpg" alt="image.png"></p>
+<h4><span id="35-占领模式交互表现">3.5 占领模式交互表现</span></h4><ul>
+<li><p>不同状态的占领点样式</p>
 <ul>
-<li>X轴表示后坐力表现时长，一般配置为枪械的射击间隔；Y轴为偏移量表现速度。</li>
-<li>图示，若图内枪械为“霰弹枪”的后坐力镜头表现，根据该曲线，则表现为：<ul>
-<li>射击后，枪械在0.05s内会迅速播放偏移量的95%，剩余5%部分在0.05s内表现完成。霰弹枪短时间快速抬高，滞空，进入回准曲线。</li>
-</ul>
+<li><p>我方点位：蓝色：</p>
+<p><img src="https://fc.sinaimg.cn/large/00724HnBly1hish358y8mj31hc0r14qp.jpg" alt="image.png"></p>
+</li>
+<li><p>敌方点位：红色：</p>
+<p><img src="https://fc.sinaimg.cn/large/00724HnBly1hisgy3g2hyj31hc0rab29.jpg" alt="image.png"></p>
+</li>
+<li><p>中立点位：灰色：</p>
+<p><img src="https://fc.sinaimg.cn/large/00724HnBly1hisgrsg91vj31hc0rmb29.jpg" alt="image.png">点位进度条：根据不同队伍触发的<code>captureTime</code>，展示进度条，绕占领点底一周展示。</p>
 </li>
 </ul>
 </li>
-<li><p>镜头偏移坐标：</p>
+<li><p>模式UI：需要展示以下内容。</p>
+<p><img src="https://fc.sinaimg.cn/large/00724HnBly1hish8s0lr2j30o5070wiw.jpg" alt="image.png"></p>
 <ul>
-<li>绕X轴的偏移：根据prefab配置镜头像素偏移，该偏移量可累计。<ul>
-<li>0=不偏移；负整数=向下偏移；正整数=向上偏移。</li>
+<li><p>A 分数情况：分别展示两队的当前分数，需展示进度条与具体数值。</p>
+</li>
+<li><p>B 占领点情况：地图内所有点位的占领情况（我方归属、敌方归属、中立）。</p>
+<ul>
+<li>占领点图标根据占领点预制的pic字段展示。</li>
 </ul>
 </li>
-<li>绕Y轴的偏移：根据prefab配置进行准星像素偏移，该偏移量可累计。<ul>
-<li>0=不偏移；负整数=向左偏移；正整数=向右偏移。</li>
-</ul>
+<li><p>C 胜利点增加情况：每秒有跳字效果，根据当前不同的加分值展示不同特效，根据模式配置表的<code>occupyPointFx</code>字段索引特效。</p>
 </li>
-<li>偏移时长：根据后坐力脚本配置时长，控制准星完成该次偏移所需要的时间，该时间可累计。<ul>
-<li>配置毫秒。</li>
-</ul>
+<li><p>占领过程：我方captureTime触发时，若角色在该占领区域内，则展示正在占领UI。</p>
+<p><img src="https://fc.sinaimg.cn/large/00724HnBly1hishboqdf4j30nt0azjx7.jpg" alt="image.png"></p>
 </li>
-</ul>
-</li>
-</ul>
-<h4><span id="43-准星回位">4.3 准星回位</span></h4><ul>
-<li>准星回位触发条件：两次射击间隔<code>≥recoilGapTime</code>配置的时间，开始进行准星回位流程。</li>
-<li>准星回位方式：计算玩家在射击或连续射击期间获得的所有Y轴与X轴偏移量，根据该偏移量，移动准星进行回位。<ul>
-<li>回位的持续时间：根据<code>recoilMoveBackTime</code>的配置时长，控制准星从当前位置移动到回位位置所需的时间。</li>
-<li>新增回位运动表现：在每一把枪械预制中新增参数（同4.2 后坐力表现），用于控制每次回位准星偏移的运动曲线。</li>
-</ul>
-</li>
-<li>新增bool类型字段：isForceMoveBack<ul>
-<li>TRUE= 强制回准。</li>
-<li>FALSE= 如果玩家通过滑屏激活了aimingCamera，则不进行回准。</li>
+<li><p>占领点HUD界面：占领点上方需根据预制内的Pic配置，展示对应的HUD界面，实现方式参照血条。</p>
+<p><img src="https://fc.sinaimg.cn/large/00724HnBly1hishcqkp9rj30ha0cv79m.jpg" alt="image.png"></p>
+<ul>
+<li>显示层级：该HUD在场景中穿透墙壁，但会被任意Caster遮挡。</li>
 </ul>
 </li>
 </ul>
-<h4><span id="44-震屏功能">4.4 震屏功能</span></h4><ul>
-<li>现在在射击时，调用现有的CameraShake功能，每一次射击，震屏表现的持续时间与后坐力表现时长相等。</li>
-<li>枪械预制中可加载震屏文件。</li>
+</li>
 </ul>
+<h4><span id="35-占领模式交互表现">3.5 占领模式交互表现</span></h4><h2><span id="四-美术需求">四、美术需求</span></h2><h4><span id="41-美术需求清单">4.1 美术需求清单</span></h4><table>
+<thead>
+<tr>
+<th>名称</th>
+<th align="left">需求类型</th>
+<th>描述图片</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>占领点模式UI：包含进度条、占领图标（我方归属、敌方归属、中立）；图标大小需设计3个级别（使用边框区分），用于区分不同占领点的重要程度；当前点位的摆放方式也需要设计：小x2、中x1、大x1<br><strong>占领点图标内部根据地图场景，设计贴合地图场景的剪影</strong></td>
+<td align="left">UI</td>
+<td><img src="https://fc.sinaimg.cn/large/00724HnBly1hish8s0lr2j30o5070wiw.jpg" alt="image.png"></td>
+</tr>
+<tr>
+<td>占领进程进度条UI</td>
+<td align="left">UI</td>
+<td><img src="https://fc.sinaimg.cn/large/00724HnBly1hish8s0lr2j30o5070wiw.jpg" alt="image.png"></td>
+</tr>
+<tr>
+<td>占领点HUD</td>
+<td align="left">UI</td>
+<td><img src="https://fc.sinaimg.cn/large/00724HnBly1hishcqkp9rj30ha0cv79m.jpg" alt="image.png"></td>
+</tr>
+<tr>
+<td>占领点地板贴图</td>
+<td align="left">模型贴图</td>
+<td><img src="https://fc.sinaimg.cn/large/00724HnBly1hishboqdf4j30nt0azjx7.jpg" alt="image.png"></td>
+</tr>
+<tr>
+<td>归属权更换场景特效</td>
+<td align="left">特效</td>
+<td>由占领点中心向占领点四周播放白色波纹</td>
+</tr>
+<tr>
+<td>占领进度条特效：缓慢流动光效</td>
+<td align="left">特效</td>
+<td><img src="https://fc.sinaimg.cn/large/00724HnBly1hish358y8mj31hc0r14qp.jpg" alt="image.png"></td>
+</tr>
+</tbody></table>
 
 
         
