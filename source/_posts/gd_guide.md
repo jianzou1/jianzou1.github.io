@@ -2,6 +2,7 @@
 title: 作品目录
 date: 2020-3-22 10:25:17
 tags: game-design
+top: 10
 ---
 
 ## 说明
@@ -31,3 +32,6 @@ tags: game-design
 
 
 
+## 三、随笔
+
+- [复杂游戏系统设计与“涌现”理论](https://jianzou.art/2020/gd_system/)
