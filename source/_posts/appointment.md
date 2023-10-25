@@ -1,5 +1,5 @@
 ---
-title: 预约须知
+title: 预约指南
 date: 2023-5-04 10:21:17
 tags: photography
 ---
@@ -43,11 +43,11 @@ Wechat：jianzou1
 >
 > 
 >
-> 2：阅读并同意 「免责声明（预约）」：[https://jianzou.art/2022/disclaimer](https://jianzou.art/2022/disclaimer/)。
+> 2：阅读并同意 「免责声明（预约）」：[https://jianzou.art/2022/disclaimer](/2022/disclaimer/)。
 >
 > 
 >
-> 3：查看 「拍摄价目」：https://jianzou.art/2022/price_list ，选择适合需求的方案。
+> 3：查看 「拍摄价目」：[https://jianzou.art/2022/price_list](/2022/price_list) ，选择适合需求的方案。
 >
 > 
 >
@@ -73,7 +73,7 @@ Wechat：jianzou1
 >
 > 
 >
-> 2：阅读并同意 「免责声明（合作）」[https://jianzou.art/2022/cooperation](https://jianzou.art/2022/cooperation/)。
+> 2：阅读并同意 「免责声明（合作）」[https://jianzou.art/2022/cooperation](/2022/cooperation/)。
 >
 > 
 >
