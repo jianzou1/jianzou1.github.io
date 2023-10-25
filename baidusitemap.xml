@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jianzou.art/2020/gd_guide/</loc>
-    <lastmod>2023-10-24</lastmod>
+    <loc>https://jianzou.art/2023/appointment/</loc>
+    <lastmod>2023-10-25</lastmod>
+  </url>
+  <url>
+    <loc>https://jianzou.art/2054/gd_guide/</loc>
+    <lastmod>2023-10-25</lastmod>
+  </url>
+  <url>
+    <loc>https://jianzou.art/2022/price_list/</loc>
+    <lastmod>2023-10-25</lastmod>
   </url>
   <url>
     <loc>https://jianzou.art/2020/gd_system/</loc>
@@ -23,14 +31,6 @@
   <url>
     <loc>https://jianzou.art/2020/gd_sample_ingame_party_point/</loc>
     <lastmod>2023-10-12</lastmod>
-  </url>
-  <url>
-    <loc>https://jianzou.art/2022/price_list/</loc>
-    <lastmod>2023-10-11</lastmod>
-  </url>
-  <url>
-    <loc>https://jianzou.art/2023/appointment/</loc>
-    <lastmod>2023-07-31</lastmod>
   </url>
   <url>
     <loc>https://jianzou.art/2022/disclaimer/</loc>
