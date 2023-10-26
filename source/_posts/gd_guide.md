@@ -28,7 +28,13 @@ top: 10
 
 ## 二、项目录屏
 
+- Party Icon 封测阶段视频演示：https://youtu.be/xCvVnPYtWMU
 
+- Dragon Brawlers 公测阶段主播演示：[https://www.youtube.com/watch?v=_klaQscaoyA&t=7s](https://www.youtube.com/watch?v=_klaQscaoyA&t=7s)
+
+- Dragon Brawlers 龙王觉醒模式演示：[Dragon Brawlers - Gameplay Part 2 - Komodo + Dracomancer (Android) - YouTube](https://www.youtube.com/watch?v=TakJ0ZrNa6I)
+
+  
 
 ## 三、随笔
 
